@@ -1,0 +1,133 @@
+.db {
+    display: block;
+}
+
+.dnm {
+    display: none;
+}
+
+.dn {
+    display: none;
+}
+
+.dbn {
+    display: none;
+}
+
+@media(max-width:992px) {
+    .db {
+        display: none;
+    }
+    .dnm {
+        display: block;
+    }
+    .dn {
+        display: none;
+    }
+    .dbn {
+        display: block;
+    }
+}
+
+@media(max-width:575px) {
+    .db {
+        display: none;
+    }
+    .dnm {
+        display: none;
+    }
+    .dn {
+        display: block;
+    }
+}
+
+
+/*---------------------
+Header
+--------------------*/
+
+.bg-orange {
+    background-color: #f79723 !important;
+    border: 10px solid #000;
+}
+
+.bg-blue {
+    background-color: #88d5f6 !important;
+    border: 10px solid #000;
+}
+
+.border-home {
+    border: 10px solid #000;
+}
+
+.w-rs-10 {
+    width: 8%;
+}
+
+@media(max-width:992px) {
+    .w-rs-10 {
+        width: 15%;
+    }
+}
+
+
+/*---------------------
+Vista Boletos
+--------------------*/
+
+.background-boletos {
+    background-image: url(../img/remind-gnp-2020-background-boletos-full.png);
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (max-width:992px) {
+    .background-boletos {
+        background-image: url(../img/remind-gnp-2020-background-boletos-mediano.png);
+        background-attachment: fixed;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+@media (max-width:575px) {
+    .background-boletos {
+        background-image: url(../img/remind-gnp-2020-background-boletos-resp.png);
+        background-attachment: fixed;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+.h-100vh {
+    height: 100vh!important;
+}
+
+.text-color {
+    color: #000;
+    font-size: 0.7rem;
+    background-color: #f79723;
+}
+
+.jumbotron-b {
+    padding: 6rem 1rem;
+    margin-bottom: 0rem;
+    background-color: #cbf0ff;
+    border-radius: .3rem;
+}
+
+@media (min-width:576px) {
+    .jumbotron-b {
+        padding: 7.4rem 0rem
+    }
+}
+
+.jumbotron-b-fluid {
+    padding-right: 0;
+    padding-left: 0;
+    border-radius: 0;
+}
