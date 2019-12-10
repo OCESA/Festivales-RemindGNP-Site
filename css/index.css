@@ -209,6 +209,10 @@ Vista Boletos
     background-size: cover;
 }
 
+.my-boletos {
+    margin-bottom: 0rem !important;
+}
+
 @media (max-width:992px) {
     .background-boletos {
         background-image: url(https://cdn-festivales-remindgnp.s3.amazonaws.com/img/remind-gnp-2020-background-boletos-mediano.png);
@@ -216,6 +220,9 @@ Vista Boletos
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
+    }
+    .my-boletos {
+        margin-bottom: 1rem !important;
     }
 }
 
@@ -226,6 +233,9 @@ Vista Boletos
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
+    }
+    .my-boletos {
+        margin-bottom: 1rem !important;
     }
 }
 
@@ -243,15 +253,21 @@ Vista Boletos
 }
 
 .jumbotron-b {
-    padding: 6rem 1rem;
+    padding: 7.4rem 0rem;
     margin-bottom: 0rem;
     background-color: #cbf0ff;
     border-radius: .3rem;
 }
 
-@media (min-width:576px) {
+@media (max-width:1644px) {
     .jumbotron-b {
-        padding: 7.4rem 0rem
+        padding: 9.4rem 0rem
+    }
+}
+
+@media (max-width:576px) {
+    .jumbotron-b {
+        padding: 6rem 1rem
     }
 }
 
@@ -308,8 +324,23 @@ Vista Legales Aviso y Términos
     background-size: cover;
 }
 
+.background-legales-aviso {
+    background-image: url(https://cdn-festivales-remindgnp.s3.amazonaws.com/img/remind-gnp-2020-background-boletos-full.png);
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 @media (max-width:992px) {
     .background-legales {
+        background-image: url(https://cdn-festivales-remindgnp.s3.amazonaws.com/img/remind-gnp-2020-background-boletos-full.png);
+        background-attachment: fixed;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .background-legales-aviso {
         background-image: url(https://cdn-festivales-remindgnp.s3.amazonaws.com/img/remind-gnp-2020-background-boletos-full.png);
         background-attachment: fixed;
         background-position: center center;
@@ -321,6 +352,13 @@ Vista Legales Aviso y Términos
 @media (max-width:575px) {
     .background-legales {
         background-image: url(https://cdn-festivales-remindgnp.s3.amazonaws.com/img/remind-gnp-2020-background-boletos-gigante.png);
+        background-attachment: fixed;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: auto;
+    }
+    .background-legales-aviso {
+        background-image: url(https://cdn-festivales-remindgnp.s3.amazonaws.com/img/remind-gnp-2020-background-boletos-gigante-aviso.png);
         background-attachment: fixed;
         background-position: top;
         background-repeat: no-repeat;
@@ -403,15 +441,15 @@ hr {
 
 @media(max-width:600px) {
     .display-legales {
-        font-size: 1.15rem;
+        font-size: 1rem;
         font-weight: 300;
         line-height: 1.2;
     }
     .fs-ul {
-        font-size: 1rem;
+        font-size: 0.7rem;
     }
     .lead {
-        font-size: 1rem;
+        font-size: 0.7rem;
         font-weight: 300;
     }
 }
