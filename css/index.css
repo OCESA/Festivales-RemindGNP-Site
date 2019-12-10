@@ -1,3 +1,13 @@
+@font-face {
+    font-family: Raleway-Medium;
+    src: url(../fonts/Raleway-Medium.ttf);
+}
+
+@font-face {
+    font-family: Raleway-Bold;
+    src: url(../fonts/Raleway-Bold.ttf);
+}
+
 .db {
     display: block;
 }
@@ -51,11 +61,6 @@ Header
     border: 10px solid #000;
 }
 
-.bg-blue {
-    background-color: #88d5f6 !important;
-    border: 10px solid #000;
-}
-
 .border-home {
     border: 10px solid #000;
 }
@@ -64,9 +69,130 @@ Header
     width: 8%;
 }
 
+.nav-link {
+    display: block;
+    padding: .5rem .2rem;
+}
+
+.navbar-brand {
+    display: inline-block;
+    padding-top: 0rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+.navbar-toggler {
+    padding: 0rem .75rem .3rem .75rem;
+    font-size: 1.5rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 2em;
+    height: 1.5em;
+    vertical-align: middle;
+    content: "";
+    background: no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url(http://cdn-festivales-remindgnp.s3.amazonaws.com/img/remind-gnp-2020-nav-bar-menu-hamburguesa-icon.svg);
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(0, 0, 0, .5);
+    border-color: transparent!important;
+}
+
+.background-color-mh {
+    background-color: transparent !important;
+}
+
 @media(max-width:992px) {
+    .navbar {
+        padding: .5rem 0rem 0rem 0rem;
+    }
+    .background-color-mh {
+        background-color: #2bbbe1!important;
+        border-top: 10px solid #000;
+    }
     .w-rs-10 {
         width: 15%;
+    }
+    .border-bottom-resp {
+        border-bottom: 10px solid black;
+    }
+}
+
+
+/*---------------------
+Footer
+--------------------*/
+
+.bg-footer {
+    background: #88d5f6;
+    border: 10px solid #000;
+}
+
+.text-avisos {
+    color: #000;
+    font-size: 10px;
+    font-weight: 400;
+    margin-top: 0!important;
+    margin-bottom: 0rem!important;
+    font-family: Raleway-Bold;
+}
+
+.text-avisos a {
+    color: #000!important;
+}
+
+.text-avisos a:hover {
+    color: #009344!important;
+    text-decoration: none!important;
+}
+
+.btn-sm,
+.btn-group-sm>.btn {
+    padding: 0.1rem 0.2rem;
+    font-size: 8px;
+    border-radius: 0.2rem;
+}
+
+@media(max-width:420px) {
+    .bg-footer {
+        background: #88d5f6;
+        border: 8px solid #000;
+    }
+    .text-avisos {
+        font-size: 8px;
+        margin-top: 0!important;
+        margin-bottom: 0rem!important;
+    }
+    .btn-sm,
+    .btn-group-sm>.btn {
+        padding: 0.1rem 0.2rem;
+        font-size: 8px;
+        border-radius: 0.2rem;
+    }
+}
+
+
+/*---------------------
+Vista Home
+--------------------*/
+
+@media (min-width: 576px) {
+    .jumbotron {
+        padding: 3.4rem 0rem 2.5rem 0rem;
     }
 }
 
@@ -76,7 +202,7 @@ Vista Boletos
 --------------------*/
 
 .background-boletos {
-    background-image: url(../img/remind-gnp-2020-background-boletos-full.png);
+    background-image: url(https://cdn-festivales-remindgnp.s3.amazonaws.com/img/remind-gnp-2020-background-boletos-full.png);
     background-attachment: fixed;
     background-position: center center;
     background-repeat: no-repeat;
@@ -85,7 +211,7 @@ Vista Boletos
 
 @media (max-width:992px) {
     .background-boletos {
-        background-image: url(../img/remind-gnp-2020-background-boletos-mediano.png);
+        background-image: url(https://cdn-festivales-remindgnp.s3.amazonaws.com/img/remind-gnp-2020-background-boletos-mediano.png);
         background-attachment: fixed;
         background-position: center center;
         background-repeat: no-repeat;
@@ -95,7 +221,7 @@ Vista Boletos
 
 @media (max-width:575px) {
     .background-boletos {
-        background-image: url(../img/remind-gnp-2020-background-boletos-resp.png);
+        background-image: url(https://cdn-festivales-remindgnp.s3.amazonaws.com/img/remind-gnp-2020-background-boletos-resp.png);
         background-attachment: fixed;
         background-position: center center;
         background-repeat: no-repeat;
@@ -111,6 +237,9 @@ Vista Boletos
     color: #000;
     font-size: 0.7rem;
     background-color: #f79723;
+    border-radius: .6rem;
+    border: 4px solid #000;
+    font-family: Raleway-Bold;
 }
 
 .jumbotron-b {
@@ -130,4 +259,159 @@ Vista Boletos
     padding-right: 0;
     padding-left: 0;
     border-radius: 0;
+}
+
+.px-cargos {
+    padding-left: 3rem !important;
+    padding-right: 3rem !important;
+}
+
+.justify-content-cargos {
+    -ms-flex-pack: end !important;
+    justify-content: flex-end !important;
+}
+
+@media (max-width:992px) {
+    .text-color {
+        font-size: 0.9rem;
+    }
+    .px-cargos {
+        padding-left: 3rem !important;
+        padding-right: 3rem !important;
+    }
+}
+
+@media (max-width:576px) {
+    .text-color {
+        font-size: 0.6rem;
+    }
+    .px-cargos {
+        padding-left: 0rem !important;
+        padding-right: 0rem !important;
+    }
+    .justify-content-cargos {
+        -ms-flex-pack: center !important;
+        justify-content: center !important;
+    }
+}
+
+
+/*---------------------
+Vista Legales Aviso y Términos
+--------------------*/
+
+.background-legales {
+    background-image: url(https://cdn-festivales-remindgnp.s3.amazonaws.com/img/remind-gnp-2020-background-boletos-full.png);
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (max-width:992px) {
+    .background-legales {
+        background-image: url(https://cdn-festivales-remindgnp.s3.amazonaws.com/img/remind-gnp-2020-background-boletos-full.png);
+        background-attachment: fixed;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+@media (max-width:575px) {
+    .background-legales {
+        background-image: url(https://cdn-festivales-remindgnp.s3.amazonaws.com/img/remind-gnp-2020-background-boletos-gigante.png);
+        background-attachment: fixed;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: auto;
+    }
+}
+
+.jumbotron-legales-container {
+    padding: 6rem 1rem;
+    margin-bottom: 0rem;
+    background-color: #cbf0ff;
+    border-radius: .3rem;
+}
+
+.jumbotron-legales-container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+    border-radius: 0;
+}
+
+.jumbotron-legales {
+    padding: 2rem 2rem;
+    margin-bottom: 0rem;
+    background-color: #cbf0ff;
+    border-radius: .3rem;
+    border: 5px solid #000;
+}
+
+@media (min-width:576px) {
+    .jumbotron-legales {
+        padding: 3rem 3rem;
+        border: 5px solid #000;
+    }
+    .jumbotron-legales-container {
+        padding: 7.4rem 0rem;
+    }
+}
+
+.jumbotron-legales-fluid {
+    padding-right: 0;
+    padding-left: 0;
+    border-radius: 0;
+}
+
+.display-legales {
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.fs-ul {
+    font-size: 1.25rem;
+}
+
+.lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #000!important;
+    margin: 20px 0;
+}
+
+@media(max-width:992px) {
+    .display-legales {
+        font-size: 1.30rem;
+        font-weight: 300;
+        line-height: 1.2;
+    }
+    .fs-ul {
+        font-size: 1.15rem;
+    }
+    .lead {
+        font-size: 1.15rem;
+        font-weight: 300;
+    }
+}
+
+@media(max-width:600px) {
+    .display-legales {
+        font-size: 1.15rem;
+        font-weight: 300;
+        line-height: 1.2;
+    }
+    .fs-ul {
+        font-size: 1rem;
+    }
+    .lead {
+        font-size: 1rem;
+        font-weight: 300;
+    }
 }
