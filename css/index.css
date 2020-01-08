@@ -364,7 +364,11 @@ Vista Boletos
 --------------------*/
 
 .background-boletos {
-    background: #40aae0!important;
+    background-image: url(https://cdn-festivales-remindgnp.s3.amazonaws.com/img/remind-gnp-2020-background-boletos-full.png);
+    background-attachment: initial;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .my-boletos {
@@ -386,8 +390,8 @@ Vista Boletos
 
 @media (max-width:992px) {
     .background-boletos {
-        background-image: url(https://cdn-festivales-remindgnp.s3.amazonaws.com/img/remind-gnp-2020-background-boletos-mediano.png);
-        background-attachment: fixed;
+        background-image: url(https://cdn-festivales-remindgnp.s3.amazonaws.com/img/remind-gnp-2020-background-boletos-full.png);
+        background-attachment: initial;
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -400,7 +404,7 @@ Vista Boletos
 @media (max-width:575px) {
     .background-boletos {
         background-image: url(https://cdn-festivales-remindgnp.s3.amazonaws.com/img/remind-gnp-2020-background-boletos-resp.png);
-        background-attachment: fixed;
+        background-attachment: initial;
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
