@@ -77,7 +77,6 @@ body {
     color: #212529;
     text-align: left;
     background-color: #6cbae3;
-    border: 10px solid #000;
 }
 
 [tabindex="-1"]:focus {
@@ -4512,7 +4511,7 @@ input[type=submit].btn-block {
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .show>.nav-link {
-    color: rgba(0, 0, 0, .9)
+    color: #f52f46
 }
 
 .navbar-light .navbar-toggler {
@@ -4547,7 +4546,8 @@ input[type=submit].btn-block {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    color: rgba(255, 255, 255, .5)
+    color: rgba(255, 255, 255, .5);
+    font-family: Raleway-Bold;
 }
 
 .navbar-dark .navbar-nav .nav-link:focus,
@@ -4563,7 +4563,8 @@ input[type=submit].btn-block {
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link.show,
 .navbar-dark .navbar-nav .show>.nav-link {
-    color: #fff
+    color: #f52f46;
+    font-family: Raleway-Bold;
 }
 
 .navbar-dark .navbar-toggler {
@@ -4572,7 +4573,7 @@ input[type=submit].btn-block {
 }
 
 .navbar-dark .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E")
+    background-image: url("https://cdn-festivales-remindgnp.s3.amazonaws.com/img/remind-gnp-2020-menu-hamburguesa.png")
 }
 
 .navbar-dark .navbar-text {

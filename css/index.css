@@ -9,45 +9,195 @@
 }
 
 .db {
-    display: block;
+    display: block!important;
+}
+
+.dbf {
+    display: flex!important;
 }
 
 .dnm {
-    display: none;
+    display: none!important;
 }
 
 .dn {
-    display: none;
+    display: none!important;
 }
 
 .dbn {
-    display: none;
+    display: none!important;
 }
 
 @media(max-width:992px) {
     .db {
-        display: none;
+        display: none!important;
+    }
+    .dbf {
+        display: none!important;
     }
     .dnm {
-        display: block;
+        display: block!important;
     }
     .dn {
-        display: none;
+        display: none!important;
     }
     .dbn {
-        display: block;
+        display: block!important;
     }
 }
 
 @media(max-width:575px) {
     .db {
-        display: none;
+        display: none!important;
+    }
+    .dbf {
+        display: none!important;
     }
     .dnm {
-        display: none;
+        display: none!important;
     }
     .dn {
-        display: block;
+        display: block!important;
+    }
+}
+
+
+/*---------------------
+W-100
+--------------------*/
+
+.w-23-100 {
+    width: 180px!important;
+}
+
+@media(max-width:992px) {
+    .w-23-100 {
+        width: 200px!important;
+    }
+}
+
+@media(max-width:500px) {
+    .w-23-100 {
+        width: 180px!important;
+    }
+}
+
+
+/*---------------------
+Fuentes variadas
+--------------------*/
+
+.font-titulo-boletos {
+    font-family: Raleway-Bold;
+    color: #f52f46;
+    font-size: 4rem;
+}
+
+.font-titulo-legales {
+    font-family: Raleway-Bold;
+    color: #000;
+    font-size: 4rem;
+}
+
+.font-titulo-lineup {
+    font-family: Raleway-Bold;
+    color: #ffbc00;
+    font-size: 4rem;
+}
+
+.font-titulo-musica-gastro-activo {
+    font-family: Raleway-Bold;
+    color: #2fbadc;
+    font-size: 1rem;
+}
+
+.font-titulo-musica-gastro-activo a:hover {
+    font-family: Raleway-Bold;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.font-titulo-musica-gastro-inactivo {
+    font-family: Raleway-Bold;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.font-titulo-musica-gastro-inactivo a:hover {
+    font-family: Raleway-Bold;
+    color: #2fbadc;
+    font-size: 1rem;
+}
+
+@media(max-width:992px) {
+    .font-titulo-boletos {
+        font-size: 4rem;
+    }
+    .font-titulo-legales {
+        font-size: 4rem;
+    }
+    .font-titulo-lineup {
+        font-size: 4rem;
+    }
+    .font-titulo-musica-gastro-activo {
+        font-size: 1rem;
+    }
+    .font-titulo-musica-gastro-inactivo {
+        font-size: 1rem;
+    }
+    .font-titulo-musica-gastro-activo a:hover {
+        font-size: 1rem;
+    }
+    .font-titulo-musica-gastro-inactivo a:hover {
+        font-size: 1rem;
+    }
+}
+
+@media(max-width:500px) {
+    .font-titulo-boletos {
+        font-size: 3rem;
+    }
+    .font-titulo-legales {
+        font-size: 3rem;
+    }
+    .font-titulo-lineup {
+        font-size: 3rem;
+    }
+    .font-titulo-musica-gastro-activo {
+        font-size: 1rem;
+    }
+    .font-titulo-musica-gastro-inactivo {
+        font-size: 1rem;
+    }
+    .font-titulo-musica-gastro-activo a:hover {
+        font-size: 1rem;
+    }
+    .font-titulo-musica-gastro-inactivo a:hover {
+        font-size: 1rem;
+    }
+}
+
+@media(max-width:320px) {
+    .font-titulo-boletos {
+        font-size: 2.5rem;
+    }
+    .font-titulo-legales {
+        font-size: 2.5rem;
+    }
+    .font-titulo-lineup {
+        font-size: 2.5rem;
+    }
+    .font-titulo-musica-gastro-activo {
+        font-size: 1rem;
+    }
+    .font-titulo-musica-gastro-inactivo {
+        font-size: 1rem;
+    }
+    .font-titulo-musica-gastro-activo a:hover {
+        font-size: 1rem;
+    }
+    .font-titulo-musica-gastro-inactivo a:hover {
+        font-size: 1rem;
     }
 }
 
@@ -56,13 +206,8 @@
 Header
 --------------------*/
 
-.bg-orange {
-    background-color: #f79723 !important;
-    border: 10px solid #000;
-}
-
-.border-home {
-    border: 10px solid #000;
+.bg-black {
+    background-color: #000 !important;
 }
 
 .w-rs-10 {
@@ -77,7 +222,7 @@ Header
 .navbar-brand {
     display: inline-block;
     padding-top: 0rem;
-    padding-bottom: .3125rem;
+    padding-bottom: 0;
     margin-right: 1rem;
     font-size: 1.25rem;
     line-height: inherit;
@@ -85,11 +230,11 @@ Header
 }
 
 .navbar-toggler {
-    padding: 0rem .75rem .3rem .75rem;
+    padding: 0rem .75rem 0rem .75rem;
     font-size: 1.5rem;
     line-height: 1;
     background-color: transparent;
-    border: 1px solid transparent;
+    border: 0px solid transparent;
     border-radius: .25rem;
 }
 
@@ -116,10 +261,13 @@ Header
     background-color: transparent !important;
 }
 
+.style-menu-hamburguesa {
+    justify-content: center;
+    display: grid;
+    font-size: 1.5rem;
+}
+
 @media(max-width:992px) {
-    .navbar {
-        padding: .5rem 0rem 0rem 0rem;
-    }
     .background-color-mh {
         background-color: #2bbbe1!important;
         border-top: 10px solid #000;
@@ -130,6 +278,11 @@ Header
     .border-bottom-resp {
         border-bottom: 10px solid black;
     }
+    .style-menu-hamburguesa {
+        justify-content: center;
+        display: grid;
+        font-size: 2rem;
+    }
 }
 
 
@@ -138,13 +291,12 @@ Footer
 --------------------*/
 
 .bg-footer {
-    background: #88d5f6;
-    border: 10px solid #000;
+    background: #026dae;
 }
 
 .text-avisos {
     color: #000;
-    font-size: 10px;
+    font-size: 8px;
     font-weight: 400;
     margin-top: 0!important;
     margin-bottom: 0rem!important;
@@ -167,20 +319,23 @@ Footer
     border-radius: 0.2rem;
 }
 
+.pp-0 {
+    padding: 0;
+}
+
 @media(max-width:420px) {
     .bg-footer {
-        background: #88d5f6;
-        border: 8px solid #000;
+        background: #026dae;
     }
     .text-avisos {
-        font-size: 8px;
+        font-size: 5px;
         margin-top: 0!important;
         margin-bottom: 0rem!important;
     }
     .btn-sm,
     .btn-group-sm>.btn {
         padding: 0.1rem 0.2rem;
-        font-size: 8px;
+        font-size: 5px;
         border-radius: 0.2rem;
     }
 }
@@ -190,9 +345,16 @@ Footer
 Vista Home
 --------------------*/
 
-@media (min-width: 576px) {
+.jumbotron {
+    padding: 3.1rem 1rem 4.5rem 1rem;
+    margin-bottom: 0rem;
+    background-color: #cbf0ff;
+    border-radius: .3rem;
+}
+
+@media (min-width: 992px) {
     .jumbotron {
-        padding: 3.4rem 0rem 2.5rem 0rem;
+        padding: 3rem 0rem 6rem 0rem;
     }
 }
 
@@ -202,15 +364,24 @@ Vista Boletos
 --------------------*/
 
 .background-boletos {
-    background-image: url(https://cdn-festivales-remindgnp.s3.amazonaws.com/img/remind-gnp-2020-background-boletos-full.png);
-    background-attachment: fixed;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: #40aae0!important;
 }
 
 .my-boletos {
     margin-bottom: 0rem !important;
+}
+
+.jumbotron-boletos {
+    padding: 2rem 0rem;
+    margin-bottom: 0rem;
+    border: 0px solid #000;
+}
+
+@media (min-width:992px) {
+    .jumbotron-boletos {
+        padding: 3rem 1rem;
+        border: 0px solid #000;
+    }
 }
 
 @media (max-width:992px) {
@@ -313,6 +484,85 @@ Vista Boletos
 
 
 /*---------------------
+Vista Musica
+--------------------*/
+
+.background-musica {
+    background: #f52f46!important;
+}
+
+.jumbotron-musica {
+    padding: 2rem 0rem;
+    margin-bottom: 0rem;
+    border: 0px solid #000;
+}
+
+
+/*---------------------
+Vista Gastronomia
+--------------------*/
+
+.background-gastronomia {
+    background: #009344!important;
+}
+
+.jumbotron-gastronomia {
+    padding: 2rem 0rem;
+    margin-bottom: 0rem;
+    border: 0px solid #000;
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: transparent;
+    background-clip: border-box;
+    border: 0px solid rgba(0, 0, 0, .125);
+    border-radius: 0;
+}
+
+.card-footer {
+    padding: .75rem 1.25rem;
+    background-color: transparent;
+    border-top: 0;
+}
+
+.card-title {
+    margin-bottom: .75rem;
+    font-family: Raleway-Bold;
+    text-transform: uppercase;
+}
+
+.card-text:last-child {
+    margin-bottom: 0;
+    font-family: Raleway-Medium;
+}
+
+.col-sm-46 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+@media (min-width:576px) {
+    .jumbotron-gastronomia {
+        padding: 3rem 1rem;
+        border: 0px solid #000;
+    }
+    .col-sm-46 {
+        -ms-flex: 0 0 47.8%;
+        flex: 0 0 47.8%;
+        max-width: 47.6%;
+    }
+}
+
+
+/*---------------------
 Vista Legales Aviso y Términos
 --------------------*/
 
@@ -367,9 +617,9 @@ Vista Legales Aviso y Términos
 }
 
 .jumbotron-legales-container {
-    padding: 6rem 1rem;
+    padding: 4rem 1rem 10rem 1rem;
     margin-bottom: 0rem;
-    background-color: #cbf0ff;
+    background-color: #40aae0;
     border-radius: .3rem;
 }
 
@@ -387,13 +637,13 @@ Vista Legales Aviso y Términos
     border: 5px solid #000;
 }
 
-@media (min-width:576px) {
+@media (min-width:992px) {
     .jumbotron-legales {
         padding: 3rem 3rem;
         border: 5px solid #000;
     }
     .jumbotron-legales-container {
-        padding: 7.4rem 0rem;
+        padding: 5rem 0rem 16rem 0rem;
     }
 }
 
