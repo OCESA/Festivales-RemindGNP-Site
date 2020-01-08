@@ -305,6 +305,13 @@ Header
     font-family: Raleway-Bold;
 }
 
+.dropdown-item.active,
+.dropdown-item:active {
+    color: #fff;
+    text-decoration: none;
+    background-color: #2fbadc;
+}
+
 @media(max-width:992px) {
     .background-color-mh {
         background-color: #2bbbe1!important;
