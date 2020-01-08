@@ -381,6 +381,10 @@ Vista Boletos
     border: 0px solid #000;
 }
 
+.mb-boletos {
+    margin-bottom: 7rem!important;
+}
+
 @media (min-width:992px) {
     .jumbotron-boletos {
         padding: 3rem 1rem;
