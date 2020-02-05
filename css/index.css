@@ -538,6 +538,134 @@ Vista Boletos
 
 
 /*---------------------
+Vista Cashless
+--------------------*/
+
+.background-cashless {
+    background: #ffbc00!important;
+}
+
+.jumbotron-cashless {
+    padding: 2rem 0rem;
+    margin-bottom: 0rem;
+    border: 0px solid #000;
+}
+
+.card-header {
+    padding: .5rem .5rem;
+    margin-bottom: 0;
+    background-color: #000;
+    border-bottom: 1px solid rgba(0, 0, 0, .125);
+}
+
+.font-style-faqs {
+    font-family: Raleway-Bold!important;
+}
+
+.font-style-respuesta {
+    font-family: Raleway-Medium!important;
+    font-size: 1rem!important;
+}
+
+.card-style {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff!important;
+    background-clip: border-box;
+    border: 0px solid rgba(0, 0, 0, .125);
+    border-radius: 0;
+}
+
+.link-style {
+    font-weight: 400;
+    color: #fff;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-size: 1.3rem!important;
+}
+
+.link-style:hover {
+    color: #2fbadc;
+    text-decoration: underline;
+    background-color: transparent;
+    border-color: transparent;
+    text-transform: uppercase;
+    font-size: 1.3rem!important;
+}
+
+@media (max-width:992px) {
+    .link-style {
+        font-weight: 400;
+        color: #fff;
+        background-color: transparent;
+        text-transform: uppercase;
+        font-size: 1.1rem!important;
+    }
+    .link-style:hover {
+        color: #2fbadc;
+        text-decoration: underline;
+        background-color: transparent;
+        border-color: transparent;
+        text-transform: uppercase;
+        font-size: 1.1rem!important;
+    }
+    .font-style-respuesta {
+        font-family: Raleway-Medium!important;
+        font-size: 1rem!important;
+    }
+}
+
+@media (max-width: 500px) {
+    .link-style {
+        font-weight: 400;
+        color: #fff;
+        background-color: transparent;
+        text-transform: uppercase;
+        font-size: 1rem!important;
+    }
+    .link-style:hover {
+        color: #2fbadc;
+        text-decoration: underline;
+        background-color: transparent;
+        border-color: transparent;
+        text-transform: uppercase;
+        font-size: 1rem!important;
+    }
+    .font-style-respuesta {
+        font-family: Raleway-Medium!important;
+        font-size: 1rem!important;
+    }
+}
+
+@media (max-width: 420px) {
+    .link-style {
+        font-weight: 400;
+        color: #fff;
+        background-color: transparent;
+        text-transform: uppercase;
+        font-size: 0.7rem!important;
+    }
+    .link-style:hover {
+        color: #2fbadc;
+        text-decoration: underline;
+        background-color: transparent;
+        border-color: transparent;
+        text-transform: uppercase;
+        font-size: 0.7rem!important;
+    }
+    .font-style-respuesta {
+        font-family: Raleway-Medium!important;
+        font-size: 0.7rem!important;
+    }
+}
+
+
+/*---------------------
 Vista Musica
 --------------------*/
 
