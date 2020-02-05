@@ -542,10 +542,14 @@ Vista Cashless
 --------------------*/
 
 .background-cashless {
-    background: #ffbc00!important;
+    background-image: url(https://cdn-festivales-remindgnp.s3.amazonaws.com/img/remind-gnp-2020-background-cashless-full.png);
+    background-attachment: initial;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.jumbotron-cashless {
+remind-gnp-2020-background-cashless-resp .jumbotron-cashless {
     padding: 2rem 0rem;
     margin-bottom: 0rem;
     border: 0px solid #000;
@@ -640,6 +644,13 @@ Vista Cashless
         font-family: Raleway-Medium!important;
         font-size: 1rem!important;
     }
+    .background-cashless {
+        background-image: url(https://cdn-festivales-remindgnp.s3.amazonaws.com/img/remind-gnp-2020-background-cashless-resp.png);
+        background-attachment: initial;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 }
 
 @media (max-width: 420px) {
@@ -648,7 +659,7 @@ Vista Cashless
         color: #fff;
         background-color: transparent;
         text-transform: uppercase;
-        font-size: 0.7rem!important;
+        font-size: 0.75rem!important;
     }
     .link-style:hover {
         color: #2fbadc;
@@ -656,11 +667,33 @@ Vista Cashless
         background-color: transparent;
         border-color: transparent;
         text-transform: uppercase;
-        font-size: 0.7rem!important;
+        font-size: 0.75rem!important;
     }
     .font-style-respuesta {
         font-family: Raleway-Medium!important;
-        font-size: 0.7rem!important;
+        font-size: 0.75rem!important;
+    }
+}
+
+@media (max-width: 320px) {
+    .link-style {
+        font-weight: 400;
+        color: #fff;
+        background-color: transparent;
+        text-transform: uppercase;
+        font-size: 0.5rem!important;
+    }
+    .link-style:hover {
+        color: #2fbadc;
+        text-decoration: underline;
+        background-color: transparent;
+        border-color: transparent;
+        text-transform: uppercase;
+        font-size: 0.5rem!important;
+    }
+    .font-style-respuesta {
+        font-family: Raleway-Medium!important;
+        font-size: 0.5rem!important;
     }
 }
 
