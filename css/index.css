@@ -24,6 +24,10 @@
     display: none!important;
 }
 
+.dnf {
+    display: none!important;
+}
+
 .dbn {
     display: none!important;
 }
@@ -40,6 +44,9 @@
     }
     .dn {
         display: none!important;
+    }
+    .dnf {
+        display: flex!important;
     }
     .dbn {
         display: block!important;
@@ -58,6 +65,9 @@
     }
     .dn {
         display: block!important;
+    }
+    .dnf {
+        display: flex!important;
     }
 }
 
@@ -603,6 +613,9 @@ remind-gnp-2020-background-cashless-resp .jumbotron-cashless {
 }
 
 @media (max-width:992px) {
+    .mb-10 {
+        margin-bottom: 7rem!important;
+    }
     .link-style {
         font-weight: 400;
         color: #fff;
@@ -625,6 +638,9 @@ remind-gnp-2020-background-cashless-resp .jumbotron-cashless {
 }
 
 @media (max-width: 500px) {
+    .mb-10 {
+        margin-bottom: 3rem!important;
+    }
     .link-style {
         font-weight: 400;
         color: #fff;
@@ -887,6 +903,18 @@ Vista Legales Aviso y Términos
     }
     .jumbotron-legales-container {
         padding: 5rem 0rem 16rem 0rem;
+    }
+}
+
+@media (max-width:992px) {
+    .mb-6 {
+        margin-bottom: 6rem!important;
+    }
+}
+
+@media (max-width:500px) {
+    .mb-6 {
+        margin-bottom: 3rem!important;
     }
 }
 
