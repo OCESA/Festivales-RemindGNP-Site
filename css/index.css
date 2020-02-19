@@ -8,6 +8,10 @@
     src: url(../fonts/Raleway-Bold.ttf);
 }
 
+body {
+    background-color: #3c8fb6!important;
+}
+
 .db {
     display: block!important;
 }
@@ -21,6 +25,10 @@
 }
 
 .dn {
+    display: none!important;
+}
+
+.dn2 {
     display: none!important;
 }
 
@@ -44,6 +52,9 @@
     }
     .dn {
         display: none!important;
+    }
+    .dn2 {
+        display: block!important;
     }
     .dnf {
         display: flex!important;
@@ -1083,6 +1094,134 @@ Links boletos
         transform: rotate(0deg);
     }
     .links2-wrap a {
+        display: block;
+        height: 100%;
+    }
+}
+
+
+/*-----------------
+Links Home
+--------------------------------------*/
+
+.links1-wrap-cartel {
+    position: absolute;
+    bottom: 44%;
+    right: 25.1%;
+    width: 50.1%;
+    height: calc(100% / 40.5);
+    border: 0px solid #000;
+    border-radius: 5rem;
+    transform: rotate(0deg);
+}
+
+.links1-wrap-cartel a {
+    display: block;
+    height: 100%;
+}
+
+.links2-wrap-cartel {
+    position: absolute;
+    bottom: 37%;
+    right: 64.1%;
+    width: 11.1%;
+    height: calc(100% / 40.5);
+    border: 0px solid #000;
+    border-radius: 5rem;
+    transform: rotate(0deg);
+}
+
+.links2-wrap-cartel a {
+    display: block;
+    height: 100%;
+}
+
+.links3-wrap-cartel {
+    position: absolute;
+    bottom: 37%;
+    right: 25.1%;
+    width: 36.1%;
+    height: calc(100% / 40.5);
+    border: 0px solid #000;
+    border-radius: 5rem;
+    transform: rotate(0deg);
+}
+
+.links3-wrap-cartel a {
+    display: block;
+    height: 100%;
+}
+
+.links4-wrap-cartel {
+    position: absolute;
+    bottom: 30.5%;
+    right: 57.1%;
+    width: 18.1%;
+    height: calc(100% / 40.5);
+    border: 0px solid #000;
+    border-radius: 5rem;
+    transform: rotate(0deg);
+}
+
+.links4-wrap-cartel a {
+    display: block;
+    height: 100%;
+}
+
+@media(max-width:992px) {
+    .links1-wrap-cartel {
+        position: absolute;
+        bottom: 47%;
+        right: 4.1%;
+        width: 91.1%;
+        height: calc(100% / 40.5);
+        border: 0px solid #000;
+        border-radius: 5rem;
+        transform: rotate(0deg);
+    }
+    .links1-wrap-cartel a {
+        display: block;
+        height: 100%;
+    }
+    .links2-wrap-cartel {
+        position: absolute;
+        bottom: 42%;
+        right: 76.1%;
+        width: 19.1%;
+        height: calc(100% / 40.5);
+        border: 0px solid #000;
+        border-radius: 5rem;
+        transform: rotate(0deg);
+    }
+    .links2-wrap-cartel a {
+        display: block;
+        height: 100%;
+    }
+    .links3-wrap-cartel {
+        position: absolute;
+        bottom: 42%;
+        right: 4.1%;
+        width: 66.1%;
+        height: calc(100% / 40.5);
+        border: 0px solid #000;
+        border-radius: 5rem;
+        transform: rotate(0deg);
+    }
+    .links3-wrap-cartel a {
+        display: block;
+        height: 100%;
+    }
+    .links4-wrap-cartel {
+        position: absolute;
+        bottom: 37%;
+        right: 63.1%;
+        width: 32.1%;
+        height: calc(100% / 40.5);
+        border: 0px solid #000;
+        border-radius: 5rem;
+        transform: rotate(0deg);
+    }
+    .links4-wrap-cartel a {
         display: block;
         height: 100%;
     }
