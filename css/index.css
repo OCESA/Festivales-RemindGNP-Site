@@ -402,7 +402,7 @@ Vista Home
 --------------------*/
 
 .jumbotron {
-    padding: 3.1rem 1rem 4rem 1rem;
+    padding: 3.1rem 1rem 8rem 1rem;
     margin-bottom: 0rem;
     background-color: #cbf0ff;
     border-radius: .3rem;
@@ -410,7 +410,7 @@ Vista Home
 
 @media (min-width: 992px) {
     .jumbotron {
-        padding: 3rem 0rem 3.5rem 0rem;
+        padding: 4rem 0rem 6rem 0rem;
     }
 }
 
