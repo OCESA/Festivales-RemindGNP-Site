@@ -422,6 +422,7 @@ Vista Home
 @media (min-width: 992px) {
     .jumbotron {
         padding: 4rem 0rem 6rem 0rem;
+        background-color: #3c8fb6;
     }
 }
 
