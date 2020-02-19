@@ -435,10 +435,24 @@ Vista Boletos
     padding: 2rem 0rem;
     margin-bottom: 0rem;
     border: 0px solid #000;
+    position: relative;
 }
 
 .mb-boletos {
     margin-bottom: 7rem!important;
+}
+
+.jumbotron-bol-container {
+    padding: 4rem 1rem 3rem 1rem;
+    margin-bottom: 0rem;
+    background-color: #40aae0;
+    border-radius: .3rem;
+}
+
+@media (min-width:992px) {
+    .jumbotron-bol-container {
+        padding: 5rem 0rem 10rem 0rem;
+    }
 }
 
 @media (min-width:992px) {
@@ -972,5 +986,104 @@ hr {
     .lead {
         font-size: 0.7rem;
         font-weight: 300;
+    }
+}
+
+
+/*-----------------
+Links boletos
+--------------------------------------*/
+
+.links1-wrap {
+    position: absolute;
+    bottom: 42%;
+    right: 52.1%;
+    width: 46.1%;
+    height: calc(100% / 5.5);
+    border: 0px solid #000;
+    border-radius: 5rem;
+    transform: rotate(0deg);
+}
+
+.links1-wrap a {
+    display: block;
+    height: 100%;
+}
+
+.links2-wrap {
+    position: absolute;
+    bottom: 42%;
+    right: 2.1%;
+    width: 47.1%;
+    height: calc(100% / 5.5);
+    border: 0px solid #000;
+    border-radius: 5rem;
+    transform: rotate(0deg);
+}
+
+.links2-wrap a {
+    display: block;
+    height: 100%;
+}
+
+@media(max-width:992px) {
+    .links1-wrap {
+        position: absolute;
+        bottom: 77%;
+        right: 1.1%;
+        width: 99.1%;
+        height: calc(100% / 10.5);
+        border: 0px solid #000;
+        border-radius: 5rem;
+        transform: rotate(0deg);
+    }
+    .links1-wrap a {
+        display: block;
+        height: 100%;
+    }
+    .links2-wrap {
+        position: absolute;
+        bottom: 23%;
+        right: 1.1%;
+        width: 99.1%;
+        height: calc(100% / 10.5);
+        border: 0px solid #000;
+        border-radius: 5rem;
+        transform: rotate(0deg);
+    }
+    .links2-wrap a {
+        display: block;
+        height: 100%;
+    }
+}
+
+@media(max-width:420px) {
+    .links1-wrap {
+        position: absolute;
+        bottom: 73%;
+        right: 1.1%;
+        width: 99.1%;
+        height: calc(100% / 10.5);
+        border: 0px solid #000;
+        border-radius: 5rem;
+        transform: rotate(0deg);
+    }
+    .links1-wrap a {
+        display: block;
+        height: 100%;
+    }
+    .links2-wrap {
+        position: absolute;
+        bottom: 23%;
+        right: 1.1%;
+        width: 99.1%;
+        height: calc(100% / 10.5);
+        border: 0px solid #000;
+        border-radius: 5rem;
+        transform: rotate(0deg);
+    }
+    .links2-wrap a {
+        display: block;
+        height: 100%;
     }
 }
