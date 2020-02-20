@@ -91,6 +91,12 @@ W-100
     width: 180px!important;
 }
 
+@media(max-width:1075px) {
+    .w-23-100 {
+        width: 95px!important;
+    }
+}
+
 @media(max-width:992px) {
     .w-23-100 {
         width: 200px!important;
