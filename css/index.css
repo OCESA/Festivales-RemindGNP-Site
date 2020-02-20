@@ -1237,11 +1237,15 @@ Links Home
 
 
 /*---------------------
-Vista Experiencia
+Vista Experiencia obejtos y ticket2ride
 --------------------*/
 
 .background-experiencia {
     background: #dac8c1;
+}
+
+.background-experiencia-ticket {
+    background: #fedc11;
 }
 
 .my-experiencia {
@@ -1249,6 +1253,13 @@ Vista Experiencia
 }
 
 .jumbotron-experiencia {
+    padding: 2rem 0rem 10rem 0rem;
+    margin-bottom: 0rem;
+    border: 0px solid #000;
+    position: relative;
+}
+
+.jumbotron-experiencia-ticket {
     padding: 2rem 0rem 10rem 0rem;
     margin-bottom: 0rem;
     border: 0px solid #000;
@@ -1266,14 +1277,28 @@ Vista Experiencia
     border-radius: .3rem;
 }
 
+.jumbotron-experiencia-container-ticket {
+    padding: 4rem 1rem 3rem 1rem;
+    margin-bottom: 0rem;
+    background-color: #fedc11;
+    border-radius: .3rem;
+}
+
 @media (min-width:992px) {
     .jumbotron-experiencia-container {
+        padding: 5rem 0rem 10rem 0rem;
+    }
+    .jumbotron-experiencia-container-ticket {
         padding: 5rem 0rem 10rem 0rem;
     }
 }
 
 @media (min-width:992px) {
     .jumbotron-experiencia {
+        padding: 1rem 1rem;
+        border: 0px solid #000;
+    }
+    .jumbotron-experiencia-ticket {
         padding: 1rem 1rem;
         border: 0px solid #000;
     }
