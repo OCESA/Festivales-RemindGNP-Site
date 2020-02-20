@@ -114,6 +114,13 @@ Fuentes variadas
     font-size: 4rem;
 }
 
+.font-titulo-experiencia {
+    font-family: Raleway-Bold;
+    color: #000;
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+
 .font-titulo-legales {
     font-family: Raleway-Bold;
     color: #000;
@@ -1225,5 +1232,61 @@ Links Home
     .links4-wrap-cartel a {
         display: block;
         height: 100%;
+    }
+}
+
+
+/*---------------------
+Vista Experiencia
+--------------------*/
+
+.background-experiencia {
+    background: #dac8c1;
+}
+
+.my-experiencia {
+    margin-bottom: 0rem !important;
+}
+
+.jumbotron-experiencia {
+    padding: 2rem 0rem 10rem 0rem;
+    margin-bottom: 0rem;
+    border: 0px solid #000;
+    position: relative;
+}
+
+.mb-experiencia {
+    margin-bottom: 0rem!important;
+}
+
+.jumbotron-experiencia-container {
+    padding: 4rem 1rem 3rem 1rem;
+    margin-bottom: 0rem;
+    background-color: #dac8c1;
+    border-radius: .3rem;
+}
+
+@media (min-width:992px) {
+    .jumbotron-experiencia-container {
+        padding: 5rem 0rem 10rem 0rem;
+    }
+}
+
+@media (min-width:992px) {
+    .jumbotron-experiencia {
+        padding: 1rem 1rem;
+        border: 0px solid #000;
+    }
+}
+
+@media (max-width:992px) {
+    .my-experiencia {
+        margin-bottom: 1rem !important;
+    }
+}
+
+@media (max-width:575px) {
+    .my-experiencia {
+        margin-bottom: 1rem !important;
     }
 }
