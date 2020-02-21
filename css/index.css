@@ -1290,12 +1290,46 @@ Vista Experiencia obejtos y ticket2ride
     border-radius: .3rem;
 }
 
-@media (min-width:992px) {
+.style-title-ticket {
+    font-family: Raleway-Bold;
+    color: #000;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+.style-text-ticket {
+    font-family: Raleway-Medium;
+    color: #000;
+    font-size: 1rem;
+}
+.link-t2rcompra{
+    color: #f52f46;
+    font-family: Raleway-Medium;
+}
+.link-t2rcompra:hover{
+    color: #f52f46!important;
+    font-family: Raleway-Medium;
+}
+@media (max-width:992px) {
     .jumbotron-experiencia-container {
         padding: 5rem 0rem 10rem 0rem;
     }
     .jumbotron-experiencia-container-ticket {
         padding: 5rem 0rem 10rem 0rem;
+    }
+@media (min-width:992px) {
+  
+    .style-title-ticket {
+        font-family: Raleway-Bold;
+        color: #000;
+        font-size: 2.1rem;
+        text-transform: uppercase;
+    }
+    
+    .style-text-ticket {
+        font-family: Raleway-Medium;
+        color: #000;
+        font-size: 2rem;
     }
 }
 
