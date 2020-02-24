@@ -1278,7 +1278,7 @@ Vista Experiencia obejtos y ticket2ride horarios
                                                                         }
                                                                         
                                                                         .jumbotron-horarios {
-                                                                            padding: 0rem 0rem 3rem 0rem;
+                                                                            padding: 0rem 0rem 1rem 0rem;
                                                                             margin-bottom: 0rem;
                                                                             border: 0px solid #000;
                                                                             position: relative;
@@ -1354,7 +1354,7 @@ Vista Experiencia obejtos y ticket2ride horarios
                                                                                 padding: 5rem 0rem 10rem 0rem;
                                                                             }
                                                                             .jumbotron-horarios {
-                                                                                padding: 0rem 0rem 7rem 0rem;
+                                                                                padding: 0rem 0rem 3.5rem 0rem;
                                                                                 margin-bottom: 0rem;
                                                                                 border: 0px solid #000;
                                                                                 position: relative;
@@ -1364,6 +1364,12 @@ Vista Experiencia obejtos y ticket2ride horarios
                                                                         @media (max-width:500px) {
                                                                             .jumbotron-horarios {
                                                                                 padding: 0rem 0rem 3rem 0rem;
+                                                                            }
+                                                                        }
+                                                                        
+                                                                        @media (max-width:420px) {
+                                                                            .jumbotron-horarios {
+                                                                                padding: 0rem 0rem 2rem 0rem;
                                                                             }
                                                                         }
                                                                         
