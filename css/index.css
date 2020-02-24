@@ -1,1357 +1,1405 @@
-@font-face {
-    font-family: Raleway-Medium;
-    src: url(../fonts/Raleway-Medium.ttf);
-}
-
-@font-face {
-    font-family: Raleway-Bold;
-    src: url(../fonts/Raleway-Bold.ttf);
-}
-
-body {
-    background-color: #3c8fb6!important;
-}
-
-.db {
-    display: block!important;
-}
-
-.dbf {
-    display: flex!important;
-}
-
-.dnm {
-    display: none!important;
-}
-
-.dn {
-    display: none!important;
-}
-
-.dn2 {
-    display: none!important;
-}
-
-.dnf {
-    display: none!important;
-}
-
-.dbn {
-    display: none!important;
-}
-
-@media(max-width:992px) {
-    .db {
-        display: none!important;
-    }
-    .dbf {
-        display: none!important;
-    }
-    .dnm {
-        display: block!important;
-    }
-    .dn {
-        display: none!important;
-    }
-    .dn2 {
-        display: block!important;
-    }
-    .dnf {
-        display: flex!important;
-    }
-    .dbn {
-        display: block!important;
-    }
-}
-
-@media(max-width:575px) {
-    .db {
-        display: none!important;
-    }
-    .dbf {
-        display: none!important;
-    }
-    .dnm {
-        display: none!important;
-    }
-    .dn {
-        display: block!important;
-    }
-    .dnf {
-        display: flex!important;
-    }
-}
-
-
-/*---------------------
+                                                                        @font-face {
+                                                                            font-family: Raleway-Medium;
+                                                                            src: url(../fonts/Raleway-Medium.ttf);
+                                                                        }
+                                                                        
+                                                                        @font-face {
+                                                                            font-family: Raleway-Bold;
+                                                                            src: url(../fonts/Raleway-Bold.ttf);
+                                                                        }
+                                                                        
+                                                                        body {
+                                                                            background-color: #3c8fb6!important;
+                                                                        }
+                                                                        
+                                                                        .db {
+                                                                            display: block!important;
+                                                                        }
+                                                                        
+                                                                        .dbf {
+                                                                            display: flex!important;
+                                                                        }
+                                                                        
+                                                                        .dnm {
+                                                                            display: none!important;
+                                                                        }
+                                                                        
+                                                                        .dn {
+                                                                            display: none!important;
+                                                                        }
+                                                                        
+                                                                        .dn2 {
+                                                                            display: none!important;
+                                                                        }
+                                                                        
+                                                                        .dnf {
+                                                                            display: none!important;
+                                                                        }
+                                                                        
+                                                                        .dbn {
+                                                                            display: none!important;
+                                                                        }
+                                                                        
+                                                                        @media(max-width:992px) {
+                                                                            .db {
+                                                                                display: none!important;
+                                                                            }
+                                                                            .dbf {
+                                                                                display: none!important;
+                                                                            }
+                                                                            .dnm {
+                                                                                display: block!important;
+                                                                            }
+                                                                            .dn {
+                                                                                display: none!important;
+                                                                            }
+                                                                            .dn2 {
+                                                                                display: block!important;
+                                                                            }
+                                                                            .dnf {
+                                                                                display: flex!important;
+                                                                            }
+                                                                            .dbn {
+                                                                                display: block!important;
+                                                                            }
+                                                                        }
+                                                                        
+                                                                        @media(max-width:575px) {
+                                                                            .db {
+                                                                                display: none!important;
+                                                                            }
+                                                                            .dbf {
+                                                                                display: none!important;
+                                                                            }
+                                                                            .dnm {
+                                                                                display: none!important;
+                                                                            }
+                                                                            .dn {
+                                                                                display: block!important;
+                                                                            }
+                                                                            .dnf {
+                                                                                display: flex!important;
+                                                                            }
+                                                                        }
+                                                                        /*---------------------
 W-100
 --------------------*/
-
-.w-23-100 {
-    width: 180px!important;
-}
-
-@media(max-width:1075px) {
-    .w-23-100 {
-        width: 95px!important;
-    }
-}
-
-@media(max-width:992px) {
-    .w-23-100 {
-        width: 200px!important;
-    }
-}
-
-@media(max-width:500px) {
-    .w-23-100 {
-        width: 180px!important;
-    }
-}
-
-
-/*---------------------
+                                                                        
+                                                                        .w-23-100 {
+                                                                            width: 180px!important;
+                                                                        }
+                                                                        
+                                                                        @media(max-width:1075px) {
+                                                                            .w-23-100 {
+                                                                                width: 95px!important;
+                                                                            }
+                                                                        }
+                                                                        
+                                                                        @media(max-width:992px) {
+                                                                            .w-23-100 {
+                                                                                width: 200px!important;
+                                                                            }
+                                                                        }
+                                                                        
+                                                                        @media(max-width:500px) {
+                                                                            .w-23-100 {
+                                                                                width: 180px!important;
+                                                                            }
+                                                                        }
+                                                                        /*---------------------
 Fuentes variadas
 --------------------*/
-
-.font-titulo-boletos {
-    font-family: Raleway-Bold;
-    color: #f52f46;
-    font-size: 4rem;
-}
-
-.font-titulo-experiencia {
-    font-family: Raleway-Bold;
-    color: #000;
-    font-size: 4rem;
-    text-transform: uppercase;
-}
-
-.font-titulo-legales {
-    font-family: Raleway-Bold;
-    color: #000;
-    font-size: 4rem;
-    text-transform: uppercase;
-}
-
-.font-titulo-lineup {
-    font-family: Raleway-Bold;
-    color: #ffbc00;
-    font-size: 4rem;
-}
-
-.font-titulo-musica-gastro-activo {
-    font-family: Raleway-Bold;
-    color: #2fbadc;
-    font-size: 1rem;
-}
-
-.font-titulo-musica-gastro-activo a:hover {
-    font-family: Raleway-Bold;
-    color: #fff;
-    font-size: 1rem;
-}
-
-.font-titulo-musica-gastro-inactivo {
-    font-family: Raleway-Bold;
-    color: #fff;
-    font-size: 1rem;
-}
-
-.font-titulo-musica-gastro-inactivo a:hover {
-    font-family: Raleway-Bold;
-    color: #2fbadc;
-    font-size: 1rem;
-}
-
-@media(max-width:992px) {
-    .font-titulo-boletos {
-        font-size: 4rem;
-    }
-    .font-titulo-legales {
-        font-size: 4rem;
-    }
-    .font-titulo-lineup {
-        font-size: 4rem;
-    }
-    .font-titulo-musica-gastro-activo {
-        font-size: 1rem;
-    }
-    .font-titulo-musica-gastro-inactivo {
-        font-size: 1rem;
-    }
-    .font-titulo-musica-gastro-activo a:hover {
-        font-size: 1rem;
-    }
-    .font-titulo-musica-gastro-inactivo a:hover {
-        font-size: 1rem;
-    }
-}
-
-@media(max-width:500px) {
-    .font-titulo-boletos {
-        font-size: 3rem;
-    }
-    .font-titulo-legales {
-        font-size: 3rem;
-    }
-    .font-titulo-lineup {
-        font-size: 3rem;
-    }
-    .font-titulo-musica-gastro-activo {
-        font-size: 1rem;
-    }
-    .font-titulo-musica-gastro-inactivo {
-        font-size: 1rem;
-    }
-    .font-titulo-musica-gastro-activo a:hover {
-        font-size: 1rem;
-    }
-    .font-titulo-musica-gastro-inactivo a:hover {
-        font-size: 1rem;
-    }
-}
-
-@media(max-width:320px) {
-    .font-titulo-boletos {
-        font-size: 2.5rem;
-    }
-    .font-titulo-legales {
-        font-size: 2.5rem;
-    }
-    .font-titulo-lineup {
-        font-size: 2.5rem;
-    }
-    .font-titulo-musica-gastro-activo {
-        font-size: 1rem;
-    }
-    .font-titulo-musica-gastro-inactivo {
-        font-size: 1rem;
-    }
-    .font-titulo-musica-gastro-activo a:hover {
-        font-size: 1rem;
-    }
-    .font-titulo-musica-gastro-inactivo a:hover {
-        font-size: 1rem;
-    }
-}
-
-
-/*---------------------
+                                                                        
+                                                                        .font-titulo-boletos {
+                                                                            font-family: Raleway-Bold;
+                                                                            color: #f52f46;
+                                                                            font-size: 4rem;
+                                                                        }
+                                                                        
+                                                                        .font-titulo-horarios {
+                                                                            font-family: Raleway-Bold;
+                                                                            color: #e97eaf;
+                                                                            font-size: 4rem;
+                                                                            text-transform: uppercase;
+                                                                        }
+                                                                        
+                                                                        .font-titulo-experiencia {
+                                                                            font-family: Raleway-Bold;
+                                                                            color: #000;
+                                                                            font-size: 4rem;
+                                                                            text-transform: uppercase;
+                                                                        }
+                                                                        
+                                                                        .font-titulo-legales {
+                                                                            font-family: Raleway-Bold;
+                                                                            color: #000;
+                                                                            font-size: 4rem;
+                                                                            text-transform: uppercase;
+                                                                        }
+                                                                        
+                                                                        .font-titulo-lineup {
+                                                                            font-family: Raleway-Bold;
+                                                                            color: #ffbc00;
+                                                                            font-size: 4rem;
+                                                                        }
+                                                                        
+                                                                        .font-titulo-musica-gastro-activo {
+                                                                            font-family: Raleway-Bold;
+                                                                            color: #2fbadc;
+                                                                            font-size: 1rem;
+                                                                        }
+                                                                        
+                                                                        .font-titulo-musica-gastro-activo a:hover {
+                                                                            font-family: Raleway-Bold;
+                                                                            color: #fff;
+                                                                            font-size: 1rem;
+                                                                        }
+                                                                        
+                                                                        .font-titulo-musica-gastro-inactivo {
+                                                                            font-family: Raleway-Bold;
+                                                                            color: #fff;
+                                                                            font-size: 1rem;
+                                                                        }
+                                                                        
+                                                                        .font-titulo-musica-gastro-inactivo a:hover {
+                                                                            font-family: Raleway-Bold;
+                                                                            color: #2fbadc;
+                                                                            font-size: 1rem;
+                                                                        }
+                                                                        
+                                                                        @media(max-width:992px) {
+                                                                            .font-titulo-boletos {
+                                                                                font-size: 4rem;
+                                                                            }
+                                                                            .font-titulo-legales {
+                                                                                font-size: 4rem;
+                                                                            }
+                                                                            .font-titulo-lineup {
+                                                                                font-size: 4rem;
+                                                                            }
+                                                                            .font-titulo-musica-gastro-activo {
+                                                                                font-size: 1rem;
+                                                                            }
+                                                                            .font-titulo-musica-gastro-inactivo {
+                                                                                font-size: 1rem;
+                                                                            }
+                                                                            .font-titulo-musica-gastro-activo a:hover {
+                                                                                font-size: 1rem;
+                                                                            }
+                                                                            .font-titulo-musica-gastro-inactivo a:hover {
+                                                                                font-size: 1rem;
+                                                                            }
+                                                                            .font-titulo-horarios {
+                                                                                font-size: 4rem;
+                                                                            }
+                                                                            .font-titulo-experiencia {
+                                                                                font-size: 4rem;
+                                                                            }
+                                                                        }
+                                                                        
+                                                                        @media(max-width:500px) {
+                                                                            .font-titulo-boletos {
+                                                                                font-size: 3rem;
+                                                                            }
+                                                                            .font-titulo-legales {
+                                                                                font-size: 3rem;
+                                                                            }
+                                                                            .font-titulo-lineup {
+                                                                                font-size: 3rem;
+                                                                            }
+                                                                            .font-titulo-musica-gastro-activo {
+                                                                                font-size: 1rem;
+                                                                            }
+                                                                            .font-titulo-musica-gastro-inactivo {
+                                                                                font-size: 1rem;
+                                                                            }
+                                                                            .font-titulo-musica-gastro-activo a:hover {
+                                                                                font-size: 1rem;
+                                                                            }
+                                                                            .font-titulo-musica-gastro-inactivo a:hover {
+                                                                                font-size: 1rem;
+                                                                            }
+                                                                            .font-titulo-horarios {
+                                                                                font-size: 3rem;
+                                                                            }
+                                                                            .font-titulo-experiencia {
+                                                                                font-size: 3rem;
+                                                                            }
+                                                                        }
+                                                                        
+                                                                        @media(max-width:320px) {
+                                                                            .font-titulo-boletos {
+                                                                                font-size: 2.5rem;
+                                                                            }
+                                                                            .font-titulo-legales {
+                                                                                font-size: 2.5rem;
+                                                                            }
+                                                                            .font-titulo-lineup {
+                                                                                font-size: 2.5rem;
+                                                                            }
+                                                                            .font-titulo-musica-gastro-activo {
+                                                                                font-size: 1rem;
+                                                                            }
+                                                                            .font-titulo-musica-gastro-inactivo {
+                                                                                font-size: 1rem;
+                                                                            }
+                                                                            .font-titulo-musica-gastro-activo a:hover {
+                                                                                font-size: 1rem;
+                                                                            }
+                                                                            .font-titulo-musica-gastro-inactivo a:hover {
+                                                                                font-size: 1rem;
+                                                                            }
+                                                                            .font-titulo-horarios {
+                                                                                font-size: 2.5rem;
+                                                                            }
+                                                                            .font-titulo-experiencia {
+                                                                                font-size: 2.5rem;
+                                                                            }
+                                                                        }
+                                                                        /*---------------------
 Header
 --------------------*/
-
-.bg-black {
-    background-color: #000 !important;
-}
-
-.w-rs-10 {
-    width: 8%;
-}
-
-.nav-link {
-    display: block;
-    padding: .5rem .2rem;
-}
-
-.navbar-brand {
-    display: inline-block;
-    padding-top: 0rem;
-    padding-bottom: 0;
-    margin-right: 1rem;
-    font-size: 1.25rem;
-    line-height: inherit;
-    white-space: nowrap;
-}
-
-.navbar-toggler {
-    padding: 0rem .75rem 0rem .75rem;
-    font-size: 1.5rem;
-    line-height: 1;
-    background-color: transparent;
-    border: 0px solid transparent;
-    border-radius: .25rem;
-}
-
-.navbar-toggler-icon {
-    display: inline-block;
-    width: 2em;
-    height: 1.5em;
-    vertical-align: middle;
-    content: "";
-    background: no-repeat center center;
-    background-size: 100% 100%;
-}
-
-.navbar-light .navbar-toggler-icon {
-    background-image: url(http://cdn-festivales-remindgnp.s3.amazonaws.com/img/remind-gnp-2020-nav-bar-menu-hamburguesa-icon.svg);
-}
-
-.navbar-light .navbar-toggler {
-    color: rgba(0, 0, 0, .5);
-    border-color: transparent!important;
-}
-
-.background-color-mh {
-    background-color: transparent !important;
-}
-
-.style-menu-hamburguesa {
-    justify-content: center;
-    display: grid;
-    font-size: 1.5rem;
-}
-
-.dropdown-menu {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    z-index: 1000;
-    display: none;
-    float: left;
-    min-width: 10rem;
-    padding: .5rem 0;
-    margin: .125rem 0 0;
-    font-size: 1rem;
-    color: #fff;
-    text-align: left;
-    list-style: none;
-    background-color: #000;
-    background-clip: padding-box;
-    border: 1px solid rgba(245, 244, 244, 0.35);
-    border-radius: .25rem;
-}
-
-.dropdown-item {
-    display: block;
-    width: 100%;
-    padding: .25rem 1.5rem;
-    clear: both;
-    font-weight: 400;
-    color: #fff;
-    text-align: inherit;
-    white-space: nowrap;
-    background-color: transparent;
-    border: 0;
-    font-family: Raleway-Bold;
-}
-
-.dropdown-item:hover {
-    font-family: Raleway-Bold;
-}
-
-.dropdown-item.active,
-.dropdown-item:active {
-    color: #fff;
-    text-decoration: none;
-    background-color: #2fbadc;
-}
-
-@media(max-width:992px) {
-    .background-color-mh {
-        background-color: #2bbbe1!important;
-        border-top: 10px solid #000;
-    }
-    .w-rs-10 {
-        width: 15%;
-    }
-    .border-bottom-resp {
-        border-bottom: 10px solid black;
-    }
-    .style-menu-hamburguesa {
-        justify-content: center;
-        display: grid;
-        font-size: 2rem;
-    }
-}
-
-
-/*---------------------
+                                                                        
+                                                                        .bg-black {
+                                                                            background-color: #000 !important;
+                                                                        }
+                                                                        
+                                                                        .w-rs-10 {
+                                                                            width: 8%;
+                                                                        }
+                                                                        
+                                                                        .nav-link {
+                                                                            display: block;
+                                                                            padding: .5rem .2rem;
+                                                                        }
+                                                                        
+                                                                        .navbar-brand {
+                                                                            display: inline-block;
+                                                                            padding-top: 0rem;
+                                                                            padding-bottom: 0;
+                                                                            margin-right: 1rem;
+                                                                            font-size: 1.25rem;
+                                                                            line-height: inherit;
+                                                                            white-space: nowrap;
+                                                                        }
+                                                                        
+                                                                        .navbar-toggler {
+                                                                            padding: 0rem .75rem 0rem .75rem;
+                                                                            font-size: 1.5rem;
+                                                                            line-height: 1;
+                                                                            background-color: transparent;
+                                                                            border: 0px solid transparent;
+                                                                            border-radius: .25rem;
+                                                                        }
+                                                                        
+                                                                        .navbar-toggler-icon {
+                                                                            display: inline-block;
+                                                                            width: 2em;
+                                                                            height: 1.5em;
+                                                                            vertical-align: middle;
+                                                                            content: "";
+                                                                            background: no-repeat center center;
+                                                                            background-size: 100% 100%;
+                                                                        }
+                                                                        
+                                                                        .navbar-light .navbar-toggler-icon {
+                                                                            background-image: url(http://cdn-festivales-remindgnp.s3.amazonaws.com/img/remind-gnp-2020-nav-bar-menu-hamburguesa-icon.svg);
+                                                                        }
+                                                                        
+                                                                        .navbar-light .navbar-toggler {
+                                                                            color: rgba(0, 0, 0, .5);
+                                                                            border-color: transparent!important;
+                                                                        }
+                                                                        
+                                                                        .background-color-mh {
+                                                                            background-color: transparent !important;
+                                                                        }
+                                                                        
+                                                                        .style-menu-hamburguesa {
+                                                                            justify-content: center;
+                                                                            display: grid;
+                                                                            font-size: 1.2rem;
+                                                                        }
+                                                                        
+                                                                        .w-logo-citi {
+                                                                            width: 30%;
+                                                                        }
+                                                                        
+                                                                        .dropdown-menu {
+                                                                            position: absolute;
+                                                                            top: 100%;
+                                                                            left: 0;
+                                                                            z-index: 1000;
+                                                                            display: none;
+                                                                            float: left;
+                                                                            min-width: 10rem;
+                                                                            padding: .5rem 0;
+                                                                            margin: .125rem 0 0;
+                                                                            font-size: 1rem;
+                                                                            color: #fff;
+                                                                            text-align: left;
+                                                                            list-style: none;
+                                                                            background-color: #000;
+                                                                            background-clip: padding-box;
+                                                                            border: 1px solid rgba(245, 244, 244, 0.35);
+                                                                            border-radius: .25rem;
+                                                                        }
+                                                                        
+                                                                        .dropdown-item {
+                                                                            display: block;
+                                                                            width: 100%;
+                                                                            padding: .25rem 1.5rem;
+                                                                            clear: both;
+                                                                            font-weight: 400;
+                                                                            color: #fff;
+                                                                            text-align: inherit;
+                                                                            white-space: nowrap;
+                                                                            background-color: transparent;
+                                                                            border: 0;
+                                                                            font-family: Raleway-Bold;
+                                                                        }
+                                                                        
+                                                                        .dropdown-item:hover {
+                                                                            font-family: Raleway-Bold;
+                                                                        }
+                                                                        
+                                                                        .dropdown-item.active,
+                                                                        .dropdown-item:active {
+                                                                            color: #fff;
+                                                                            text-decoration: none;
+                                                                            background-color: #2fbadc;
+                                                                        }
+                                                                        
+                                                                        @media (max-width:1110px) {
+                                                                            .style-menu-hamburguesa {
+                                                                                justify-content: center;
+                                                                                display: grid;
+                                                                                font-size: 1rem;
+                                                                            }
+                                                                            .w-logo-citi {
+                                                                                width: 30%;
+                                                                            }
+                                                                        }
+                                                                        
+                                                                        @media(max-width:992px) {
+                                                                            .w-logo-citi {
+                                                                                width: 100%;
+                                                                            }
+                                                                            .background-color-mh {
+                                                                                background-color: #2bbbe1!important;
+                                                                                border-top: 10px solid #000;
+                                                                            }
+                                                                            .w-rs-10 {
+                                                                                width: 15%;
+                                                                            }
+                                                                            .border-bottom-resp {
+                                                                                border-bottom: 10px solid black;
+                                                                            }
+                                                                            .style-menu-hamburguesa {
+                                                                                justify-content: center;
+                                                                                display: grid;
+                                                                                font-size: 2rem;
+                                                                            }
+                                                                        }
+                                                                        /*---------------------
 Footer
 --------------------*/
-
-.bg-footer {
-    background: #026dae;
-}
-
-.text-avisos {
-    color: #000;
-    font-size: 8px;
-    font-weight: 400;
-    margin-top: 0!important;
-    margin-bottom: 0rem!important;
-    font-family: Raleway-Bold;
-}
-
-.text-avisos a {
-    color: #000!important;
-}
-
-.text-avisos a:hover {
-    color: #009344!important;
-    text-decoration: none!important;
-}
-
-.btn-sm,
-.btn-group-sm>.btn {
-    padding: 0.1rem 0.2rem;
-    font-size: 8px;
-    border-radius: 0.2rem;
-}
-
-.pp-0 {
-    padding: 0;
-}
-
-@media(max-width:420px) {
-    .bg-footer {
-        background: #026dae;
-    }
-    .text-avisos {
-        font-size: 5px;
-        margin-top: 0!important;
-        margin-bottom: 0rem!important;
-    }
-    .btn-sm,
-    .btn-group-sm>.btn {
-        padding: 0.1rem 0.2rem;
-        font-size: 5px;
-        border-radius: 0.2rem;
-    }
-}
-
-
-/*---------------------
+                                                                        
+                                                                        .bg-footer {
+                                                                            background: #026dae;
+                                                                        }
+                                                                        
+                                                                        .text-avisos {
+                                                                            color: #000;
+                                                                            font-size: 8px;
+                                                                            font-weight: 400;
+                                                                            margin-top: 0!important;
+                                                                            margin-bottom: 0rem!important;
+                                                                            font-family: Raleway-Bold;
+                                                                        }
+                                                                        
+                                                                        .text-avisos a {
+                                                                            color: #000!important;
+                                                                        }
+                                                                        
+                                                                        .text-avisos a:hover {
+                                                                            color: #009344!important;
+                                                                            text-decoration: none!important;
+                                                                        }
+                                                                        
+                                                                        .btn-sm,
+                                                                        .btn-group-sm>.btn {
+                                                                            padding: 0.1rem 0.2rem;
+                                                                            font-size: 8px;
+                                                                            border-radius: 0.2rem;
+                                                                        }
+                                                                        
+                                                                        .pp-0 {
+                                                                            padding: 0;
+                                                                        }
+                                                                        
+                                                                        @media(max-width:420px) {
+                                                                            .bg-footer {
+                                                                                background: #026dae;
+                                                                            }
+                                                                            .text-avisos {
+                                                                                font-size: 5px;
+                                                                                margin-top: 0!important;
+                                                                                margin-bottom: 0rem!important;
+                                                                            }
+                                                                            .btn-sm,
+                                                                            .btn-group-sm>.btn {
+                                                                                padding: 0.1rem 0.2rem;
+                                                                                font-size: 5px;
+                                                                                border-radius: 0.2rem;
+                                                                            }
+                                                                        }
+                                                                        /*---------------------
 Vista Home
 --------------------*/
-
-.jumbotron {
-    padding: 3.1rem 1rem 8rem 1rem;
-    margin-bottom: 0rem;
-    background-color: #3c8fb6;
-    border-radius: .3rem;
-}
-
-@media (min-width: 992px) {
-    .jumbotron {
-        padding: 4rem 0rem 6rem 0rem;
-        background-color: #3c8fb6;
-    }
-}
-
-
-/*---------------------
+                                                                        
+                                                                        .jumbotron {
+                                                                            padding: 3.1rem 1rem 8rem 1rem;
+                                                                            margin-bottom: 0rem;
+                                                                            background-color: #3c8fb6;
+                                                                            border-radius: .3rem;
+                                                                        }
+                                                                        
+                                                                        @media (min-width: 992px) {
+                                                                            .jumbotron {
+                                                                                padding: 4rem 0rem 6rem 0rem;
+                                                                                background-color: #3c8fb6;
+                                                                            }
+                                                                        }
+                                                                        /*---------------------
 Vista Boletos
 --------------------*/
-
-.background-boletos {
-    background-image: url(https://cdn-festivales-remindgnp.s3.amazonaws.com/img/remind-gnp-2020-background-boletos-full.png);
-    background-attachment: initial;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.my-boletos {
-    margin-bottom: 0rem !important;
-}
-
-.jumbotron-boletos {
-    padding: 2rem 0rem;
-    margin-bottom: 0rem;
-    border: 0px solid #000;
-    position: relative;
-}
-
-.mb-boletos {
-    margin-bottom: 7rem!important;
-}
-
-.jumbotron-bol-container {
-    padding: 4rem 1rem 3rem 1rem;
-    margin-bottom: 0rem;
-    background-color: #40aae0;
-    border-radius: .3rem;
-}
-
-@media (min-width:992px) {
-    .jumbotron-bol-container {
-        padding: 5rem 0rem 10rem 0rem;
-    }
-}
-
-@media (min-width:992px) {
-    .jumbotron-boletos {
-        padding: 3rem 1rem;
-        border: 0px solid #000;
-    }
-}
-
-@media (max-width:992px) {
-    .background-boletos {
-        background-image: url(https://cdn-festivales-remindgnp.s3.amazonaws.com/img/remind-gnp-2020-background-boletos-full.png);
-        background-attachment: initial;
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    .my-boletos {
-        margin-bottom: 1rem !important;
-    }
-}
-
-@media (max-width:575px) {
-    .background-boletos {
-        background-image: url(https://cdn-festivales-remindgnp.s3.amazonaws.com/img/remind-gnp-2020-background-boletos-resp.png);
-        background-attachment: initial;
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    .my-boletos {
-        margin-bottom: 1rem !important;
-    }
-}
-
-.h-100vh {
-    height: 100vh!important;
-}
-
-.text-color {
-    color: #000;
-    font-size: 0.7rem;
-    background-color: #f79723;
-    border-radius: .6rem;
-    border: 4px solid #000;
-    font-family: Raleway-Bold;
-}
-
-.jumbotron-b {
-    padding: 7.4rem 0rem;
-    margin-bottom: 0rem;
-    background-color: #cbf0ff;
-    border-radius: .3rem;
-}
-
-@media (max-width:1644px) {
-    .jumbotron-b {
-        padding: 9.4rem 0rem
-    }
-}
-
-@media (max-width:576px) {
-    .jumbotron-b {
-        padding: 6rem 1rem
-    }
-}
-
-.jumbotron-b-fluid {
-    padding-right: 0;
-    padding-left: 0;
-    border-radius: 0;
-}
-
-.px-cargos {
-    padding-left: 3rem !important;
-    padding-right: 3rem !important;
-}
-
-.justify-content-cargos {
-    -ms-flex-pack: end !important;
-    justify-content: flex-end !important;
-}
-
-@media (max-width:992px) {
-    .text-color {
-        font-size: 0.9rem;
-    }
-    .px-cargos {
-        padding-left: 3rem !important;
-        padding-right: 3rem !important;
-    }
-}
-
-@media (max-width:576px) {
-    .text-color {
-        font-size: 0.6rem;
-    }
-    .px-cargos {
-        padding-left: 0rem !important;
-        padding-right: 0rem !important;
-    }
-    .justify-content-cargos {
-        -ms-flex-pack: center !important;
-        justify-content: center !important;
-    }
-}
-
-
-/*---------------------
+                                                                        
+                                                                        .background-boletos {
+                                                                            background-image: url(https://cdn-festivales-remindgnp.s3.amazonaws.com/img/remind-gnp-2020-background-boletos-full.png);
+                                                                            background-attachment: initial;
+                                                                            background-position: center center;
+                                                                            background-repeat: no-repeat;
+                                                                            background-size: cover;
+                                                                        }
+                                                                        
+                                                                        .my-boletos {
+                                                                            margin-bottom: 0rem !important;
+                                                                        }
+                                                                        
+                                                                        .jumbotron-boletos {
+                                                                            padding: 2rem 0rem;
+                                                                            margin-bottom: 0rem;
+                                                                            border: 0px solid #000;
+                                                                            position: relative;
+                                                                        }
+                                                                        
+                                                                        .mb-boletos {
+                                                                            margin-bottom: 7rem!important;
+                                                                        }
+                                                                        
+                                                                        .jumbotron-bol-container {
+                                                                            padding: 4rem 1rem 3rem 1rem;
+                                                                            margin-bottom: 0rem;
+                                                                            background-color: #40aae0;
+                                                                            border-radius: .3rem;
+                                                                        }
+                                                                        
+                                                                        @media (min-width:992px) {
+                                                                            .jumbotron-bol-container {
+                                                                                padding: 5rem 0rem 10rem 0rem;
+                                                                            }
+                                                                        }
+                                                                        
+                                                                        @media (min-width:992px) {
+                                                                            .jumbotron-boletos {
+                                                                                padding: 3rem 1rem;
+                                                                                border: 0px solid #000;
+                                                                            }
+                                                                        }
+                                                                        
+                                                                        @media (max-width:992px) {
+                                                                            .background-boletos {
+                                                                                background-image: url(https://cdn-festivales-remindgnp.s3.amazonaws.com/img/remind-gnp-2020-background-boletos-full.png);
+                                                                                background-attachment: initial;
+                                                                                background-position: center center;
+                                                                                background-repeat: no-repeat;
+                                                                                background-size: cover;
+                                                                            }
+                                                                            .my-boletos {
+                                                                                margin-bottom: 1rem !important;
+                                                                            }
+                                                                        }
+                                                                        
+                                                                        @media (max-width:575px) {
+                                                                            .background-boletos {
+                                                                                background-image: url(https://cdn-festivales-remindgnp.s3.amazonaws.com/img/remind-gnp-2020-background-boletos-resp.png);
+                                                                                background-attachment: initial;
+                                                                                background-position: center center;
+                                                                                background-repeat: no-repeat;
+                                                                                background-size: cover;
+                                                                            }
+                                                                            .my-boletos {
+                                                                                margin-bottom: 1rem !important;
+                                                                            }
+                                                                        }
+                                                                        
+                                                                        .h-100vh {
+                                                                            height: 100vh!important;
+                                                                        }
+                                                                        
+                                                                        .text-color {
+                                                                            color: #000;
+                                                                            font-size: 0.7rem;
+                                                                            background-color: #f79723;
+                                                                            border-radius: .6rem;
+                                                                            border: 4px solid #000;
+                                                                            font-family: Raleway-Bold;
+                                                                        }
+                                                                        
+                                                                        .jumbotron-b {
+                                                                            padding: 7.4rem 0rem;
+                                                                            margin-bottom: 0rem;
+                                                                            background-color: #cbf0ff;
+                                                                            border-radius: .3rem;
+                                                                        }
+                                                                        
+                                                                        @media (max-width:1644px) {
+                                                                            .jumbotron-b {
+                                                                                padding: 9.4rem 0rem
+                                                                            }
+                                                                        }
+                                                                        
+                                                                        @media (max-width:576px) {
+                                                                            .jumbotron-b {
+                                                                                padding: 6rem 1rem
+                                                                            }
+                                                                        }
+                                                                        
+                                                                        .jumbotron-b-fluid {
+                                                                            padding-right: 0;
+                                                                            padding-left: 0;
+                                                                            border-radius: 0;
+                                                                        }
+                                                                        
+                                                                        .px-cargos {
+                                                                            padding-left: 3rem !important;
+                                                                            padding-right: 3rem !important;
+                                                                        }
+                                                                        
+                                                                        .justify-content-cargos {
+                                                                            -ms-flex-pack: end !important;
+                                                                            justify-content: flex-end !important;
+                                                                        }
+                                                                        
+                                                                        @media (max-width:992px) {
+                                                                            .text-color {
+                                                                                font-size: 0.9rem;
+                                                                            }
+                                                                            .px-cargos {
+                                                                                padding-left: 3rem !important;
+                                                                                padding-right: 3rem !important;
+                                                                            }
+                                                                        }
+                                                                        
+                                                                        @media (max-width:576px) {
+                                                                            .text-color {
+                                                                                font-size: 0.6rem;
+                                                                            }
+                                                                            .px-cargos {
+                                                                                padding-left: 0rem !important;
+                                                                                padding-right: 0rem !important;
+                                                                            }
+                                                                            .justify-content-cargos {
+                                                                                -ms-flex-pack: center !important;
+                                                                                justify-content: center !important;
+                                                                            }
+                                                                        }
+                                                                        /*---------------------
 Vista Cashless
 --------------------*/
-
-.background-cashless {
-    background-image: url(https://cdn-festivales-remindgnp.s3.amazonaws.com/img/remind-gnp-2020-background-cashless-full.png);
-    background-attachment: initial;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-remind-gnp-2020-background-cashless-resp .jumbotron-cashless {
-    padding: 2rem 0rem;
-    margin-bottom: 0rem;
-    border: 0px solid #000;
-}
-
-.card-header {
-    padding: .5rem .5rem;
-    margin-bottom: 0;
-    background-color: #000;
-    border-bottom: 1px solid rgba(0, 0, 0, .125);
-}
-
-.font-style-faqs {
-    font-family: Raleway-Bold!important;
-}
-
-.font-style-respuesta {
-    font-family: Raleway-Medium!important;
-    font-size: 1rem!important;
-}
-
-.card-style {
-    position: relative;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    min-width: 0;
-    word-wrap: break-word;
-    background-color: #fff!important;
-    background-clip: border-box;
-    border: 0px solid rgba(0, 0, 0, .125);
-    border-radius: 0;
-}
-
-.link-style {
-    font-weight: 400;
-    color: #fff;
-    background-color: transparent;
-    text-transform: uppercase;
-    font-size: 1.3rem!important;
-}
-
-.link-style:hover {
-    color: #2fbadc;
-    text-decoration: underline;
-    background-color: transparent;
-    border-color: transparent;
-    text-transform: uppercase;
-    font-size: 1.3rem!important;
-}
-
-@media (max-width:992px) {
-    .mb-10 {
-        margin-bottom: 7rem!important;
-    }
-    .link-style {
-        font-weight: 400;
-        color: #fff;
-        background-color: transparent;
-        text-transform: uppercase;
-        font-size: 1.1rem!important;
-    }
-    .link-style:hover {
-        color: #2fbadc;
-        text-decoration: underline;
-        background-color: transparent;
-        border-color: transparent;
-        text-transform: uppercase;
-        font-size: 1.1rem!important;
-    }
-    .font-style-respuesta {
-        font-family: Raleway-Medium!important;
-        font-size: 1rem!important;
-    }
-}
-
-@media (max-width: 500px) {
-    .mb-10 {
-        margin-bottom: 3rem!important;
-    }
-    .link-style {
-        font-weight: 400;
-        color: #fff;
-        background-color: transparent;
-        text-transform: uppercase;
-        font-size: 1rem!important;
-    }
-    .link-style:hover {
-        color: #2fbadc;
-        text-decoration: underline;
-        background-color: transparent;
-        border-color: transparent;
-        text-transform: uppercase;
-        font-size: 1rem!important;
-    }
-    .font-style-respuesta {
-        font-family: Raleway-Medium!important;
-        font-size: 1rem!important;
-    }
-    .background-cashless {
-        background-image: url(https://cdn-festivales-remindgnp.s3.amazonaws.com/img/remind-gnp-2020-background-cashless-resp.png);
-        background-attachment: initial;
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-}
-
-@media (max-width: 420px) {
-    .link-style {
-        font-weight: 400;
-        color: #fff;
-        background-color: transparent;
-        text-transform: uppercase;
-        font-size: 0.75rem!important;
-    }
-    .link-style:hover {
-        color: #2fbadc;
-        text-decoration: underline;
-        background-color: transparent;
-        border-color: transparent;
-        text-transform: uppercase;
-        font-size: 0.75rem!important;
-    }
-    .font-style-respuesta {
-        font-family: Raleway-Medium!important;
-        font-size: 0.75rem!important;
-    }
-}
-
-@media (max-width: 320px) {
-    .link-style {
-        font-weight: 400;
-        color: #fff;
-        background-color: transparent;
-        text-transform: uppercase;
-        font-size: 0.5rem!important;
-    }
-    .link-style:hover {
-        color: #2fbadc;
-        text-decoration: underline;
-        background-color: transparent;
-        border-color: transparent;
-        text-transform: uppercase;
-        font-size: 0.5rem!important;
-    }
-    .font-style-respuesta {
-        font-family: Raleway-Medium!important;
-        font-size: 0.5rem!important;
-    }
-}
-
-
-/*---------------------
+                                                                        
+                                                                        .background-cashless {
+                                                                            background-image: url(https://cdn-festivales-remindgnp.s3.amazonaws.com/img/remind-gnp-2020-background-cashless-full.png);
+                                                                            background-attachment: initial;
+                                                                            background-position: center center;
+                                                                            background-repeat: no-repeat;
+                                                                            background-size: cover;
+                                                                        }
+                                                                        
+                                                                        remind-gnp-2020-background-cashless-resp .jumbotron-cashless {
+                                                                            padding: 2rem 0rem;
+                                                                            margin-bottom: 0rem;
+                                                                            border: 0px solid #000;
+                                                                        }
+                                                                        
+                                                                        .card-header {
+                                                                            padding: .5rem .5rem;
+                                                                            margin-bottom: 0;
+                                                                            background-color: #000;
+                                                                            border-bottom: 1px solid rgba(0, 0, 0, .125);
+                                                                        }
+                                                                        
+                                                                        .font-style-faqs {
+                                                                            font-family: Raleway-Bold!important;
+                                                                        }
+                                                                        
+                                                                        .font-style-respuesta {
+                                                                            font-family: Raleway-Medium!important;
+                                                                            font-size: 1rem!important;
+                                                                        }
+                                                                        
+                                                                        .card-style {
+                                                                            position: relative;
+                                                                            display: -ms-flexbox;
+                                                                            display: flex;
+                                                                            -ms-flex-direction: column;
+                                                                            flex-direction: column;
+                                                                            min-width: 0;
+                                                                            word-wrap: break-word;
+                                                                            background-color: #fff!important;
+                                                                            background-clip: border-box;
+                                                                            border: 0px solid rgba(0, 0, 0, .125);
+                                                                            border-radius: 0;
+                                                                        }
+                                                                        
+                                                                        .link-style {
+                                                                            font-weight: 400;
+                                                                            color: #fff;
+                                                                            background-color: transparent;
+                                                                            text-transform: uppercase;
+                                                                            font-size: 1.3rem!important;
+                                                                        }
+                                                                        
+                                                                        .link-style:hover {
+                                                                            color: #2fbadc;
+                                                                            text-decoration: underline;
+                                                                            background-color: transparent;
+                                                                            border-color: transparent;
+                                                                            text-transform: uppercase;
+                                                                            font-size: 1.3rem!important;
+                                                                        }
+                                                                        
+                                                                        @media (max-width:992px) {
+                                                                            .mb-10 {
+                                                                                margin-bottom: 7rem!important;
+                                                                            }
+                                                                            .link-style {
+                                                                                font-weight: 400;
+                                                                                color: #fff;
+                                                                                background-color: transparent;
+                                                                                text-transform: uppercase;
+                                                                                font-size: 1.1rem!important;
+                                                                            }
+                                                                            .link-style:hover {
+                                                                                color: #2fbadc;
+                                                                                text-decoration: underline;
+                                                                                background-color: transparent;
+                                                                                border-color: transparent;
+                                                                                text-transform: uppercase;
+                                                                                font-size: 1.1rem!important;
+                                                                            }
+                                                                            .font-style-respuesta {
+                                                                                font-family: Raleway-Medium!important;
+                                                                                font-size: 1rem!important;
+                                                                            }
+                                                                        }
+                                                                        
+                                                                        @media (max-width: 500px) {
+                                                                            .mb-10 {
+                                                                                margin-bottom: 3rem!important;
+                                                                            }
+                                                                            .link-style {
+                                                                                font-weight: 400;
+                                                                                color: #fff;
+                                                                                background-color: transparent;
+                                                                                text-transform: uppercase;
+                                                                                font-size: 1rem!important;
+                                                                            }
+                                                                            .link-style:hover {
+                                                                                color: #2fbadc;
+                                                                                text-decoration: underline;
+                                                                                background-color: transparent;
+                                                                                border-color: transparent;
+                                                                                text-transform: uppercase;
+                                                                                font-size: 1rem!important;
+                                                                            }
+                                                                            .font-style-respuesta {
+                                                                                font-family: Raleway-Medium!important;
+                                                                                font-size: 1rem!important;
+                                                                            }
+                                                                            .background-cashless {
+                                                                                background-image: url(https://cdn-festivales-remindgnp.s3.amazonaws.com/img/remind-gnp-2020-background-cashless-resp.png);
+                                                                                background-attachment: initial;
+                                                                                background-position: center center;
+                                                                                background-repeat: no-repeat;
+                                                                                background-size: cover;
+                                                                            }
+                                                                        }
+                                                                        
+                                                                        @media (max-width: 420px) {
+                                                                            .link-style {
+                                                                                font-weight: 400;
+                                                                                color: #fff;
+                                                                                background-color: transparent;
+                                                                                text-transform: uppercase;
+                                                                                font-size: 0.75rem!important;
+                                                                            }
+                                                                            .link-style:hover {
+                                                                                color: #2fbadc;
+                                                                                text-decoration: underline;
+                                                                                background-color: transparent;
+                                                                                border-color: transparent;
+                                                                                text-transform: uppercase;
+                                                                                font-size: 0.75rem!important;
+                                                                            }
+                                                                            .font-style-respuesta {
+                                                                                font-family: Raleway-Medium!important;
+                                                                                font-size: 0.75rem!important;
+                                                                            }
+                                                                        }
+                                                                        
+                                                                        @media (max-width: 320px) {
+                                                                            .link-style {
+                                                                                font-weight: 400;
+                                                                                color: #fff;
+                                                                                background-color: transparent;
+                                                                                text-transform: uppercase;
+                                                                                font-size: 0.5rem!important;
+                                                                            }
+                                                                            .link-style:hover {
+                                                                                color: #2fbadc;
+                                                                                text-decoration: underline;
+                                                                                background-color: transparent;
+                                                                                border-color: transparent;
+                                                                                text-transform: uppercase;
+                                                                                font-size: 0.5rem!important;
+                                                                            }
+                                                                            .font-style-respuesta {
+                                                                                font-family: Raleway-Medium!important;
+                                                                                font-size: 0.5rem!important;
+                                                                            }
+                                                                        }
+                                                                        /*---------------------
 Vista Musica
 --------------------*/
-
-.background-musica {
-    background: #e92d43!important;
-}
-
-.jumbotron-musica {
-    padding: 2rem 0rem;
-    margin-bottom: 0rem;
-    border: 0px solid #000;
-}
-
-
-/*---------------------
+                                                                        
+                                                                        .background-musica {
+                                                                            background: #e92d43!important;
+                                                                        }
+                                                                        
+                                                                        .jumbotron-musica {
+                                                                            padding: 2rem 0rem;
+                                                                            margin-bottom: 0rem;
+                                                                            border: 0px solid #000;
+                                                                        }
+                                                                        /*---------------------
 Vista Artista
 --------------------*/
-
-.background-artista {
-    background: #ffbc00!important;
-}
-
-.border-artista-titulo {
-    border-bottom: 1px solid black;
-    margin-bottom: 1rem;
-}
-
-.border-artista-titulo-grid {
-    border-bottom: 0px solid black;
-}
-
-@media (max-width:992px) {
-    .border-artista-titulo {
-        border-bottom: 1px solid black;
-        margin-bottom: 0rem;
-    }
-    .border-artista-titulo-grid {
-        border-bottom: 1px solid black;
-    }
-}
-
-
-/*---------------------
+                                                                        
+                                                                        .background-artista {
+                                                                            background: #ffbc00!important;
+                                                                        }
+                                                                        
+                                                                        .border-artista-titulo {
+                                                                            border-bottom: 1px solid black;
+                                                                            margin-bottom: 1rem;
+                                                                        }
+                                                                        
+                                                                        .border-artista-titulo-grid {
+                                                                            border-bottom: 0px solid black;
+                                                                        }
+                                                                        
+                                                                        @media (max-width:992px) {
+                                                                            .border-artista-titulo {
+                                                                                border-bottom: 1px solid black;
+                                                                                margin-bottom: 0rem;
+                                                                            }
+                                                                            .border-artista-titulo-grid {
+                                                                                border-bottom: 1px solid black;
+                                                                            }
+                                                                        }
+                                                                        /*---------------------
 Vista Gastronomia
 --------------------*/
-
-.background-gastronomia {
-    background: #009344!important;
-}
-
-.jumbotron-gastronomia {
-    padding: 2rem 0rem;
-    margin-bottom: 0rem;
-    border: 0px solid #000;
-}
-
-.card {
-    position: relative;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    min-width: 0;
-    word-wrap: break-word;
-    background-color: transparent;
-    background-clip: border-box;
-    border: 0px solid rgba(0, 0, 0, .125);
-    border-radius: 0;
-}
-
-.card-footer {
-    padding: .75rem 1.25rem;
-    background-color: transparent;
-    border-top: 0;
-}
-
-.card-title {
-    margin-bottom: .75rem;
-    font-family: Raleway-Bold;
-    text-transform: uppercase;
-}
-
-.card-text:last-child {
-    margin-bottom: 0;
-    font-family: Raleway-Medium;
-}
-
-.col-sm-46 {
-    -ms-flex: 0 0 100%;
-    flex: 0 0 100%;
-    max-width: 100%;
-}
-
-@media (min-width:576px) {
-    .jumbotron-gastronomia {
-        padding: 3rem 1rem;
-        border: 0px solid #000;
-    }
-    .col-sm-46 {
-        -ms-flex: 0 0 47.8%;
-        flex: 0 0 47.8%;
-        max-width: 47.6%;
-    }
-}
-
-
-/*---------------------
+                                                                        
+                                                                        .background-gastronomia {
+                                                                            background: #009344!important;
+                                                                        }
+                                                                        
+                                                                        .jumbotron-gastronomia {
+                                                                            padding: 2rem 0rem;
+                                                                            margin-bottom: 0rem;
+                                                                            border: 0px solid #000;
+                                                                        }
+                                                                        
+                                                                        .card {
+                                                                            position: relative;
+                                                                            display: -ms-flexbox;
+                                                                            display: flex;
+                                                                            -ms-flex-direction: column;
+                                                                            flex-direction: column;
+                                                                            min-width: 0;
+                                                                            word-wrap: break-word;
+                                                                            background-color: transparent;
+                                                                            background-clip: border-box;
+                                                                            border: 0px solid rgba(0, 0, 0, .125);
+                                                                            border-radius: 0;
+                                                                        }
+                                                                        
+                                                                        .card-footer {
+                                                                            padding: .75rem 1.25rem;
+                                                                            background-color: transparent;
+                                                                            border-top: 0;
+                                                                        }
+                                                                        
+                                                                        .card-title {
+                                                                            margin-bottom: .75rem;
+                                                                            font-family: Raleway-Bold;
+                                                                            text-transform: uppercase;
+                                                                        }
+                                                                        
+                                                                        .card-text:last-child {
+                                                                            margin-bottom: 0;
+                                                                            font-family: Raleway-Medium;
+                                                                        }
+                                                                        
+                                                                        .col-sm-46 {
+                                                                            -ms-flex: 0 0 100%;
+                                                                            flex: 0 0 100%;
+                                                                            max-width: 100%;
+                                                                        }
+                                                                        
+                                                                        @media (min-width:576px) {
+                                                                            .jumbotron-gastronomia {
+                                                                                padding: 3rem 1rem;
+                                                                                border: 0px solid #000;
+                                                                            }
+                                                                            .col-sm-46 {
+                                                                                -ms-flex: 0 0 47.8%;
+                                                                                flex: 0 0 47.8%;
+                                                                                max-width: 47.6%;
+                                                                            }
+                                                                        }
+                                                                        /*---------------------
 Vista Legales Aviso y Términos
 --------------------*/
-
-.background-legales {
-    background-image: url(https://cdn-festivales-remindgnp.s3.amazonaws.com/img/remind-gnp-2020-background-boletos-full.png);
-    background-attachment: fixed;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.background-legales-aviso {
-    background-image: url(https://cdn-festivales-remindgnp.s3.amazonaws.com/img/remind-gnp-2020-background-boletos-full.png);
-    background-attachment: fixed;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-@media (max-width:992px) {
-    .background-legales {
-        background-image: url(https://cdn-festivales-remindgnp.s3.amazonaws.com/img/remind-gnp-2020-background-boletos-full.png);
-        background-attachment: fixed;
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    .background-legales-aviso {
-        background-image: url(https://cdn-festivales-remindgnp.s3.amazonaws.com/img/remind-gnp-2020-background-boletos-full.png);
-        background-attachment: fixed;
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-}
-
-@media (max-width:575px) {
-    .background-legales {
-        background-image: url(https://cdn-festivales-remindgnp.s3.amazonaws.com/img/remind-gnp-2020-background-boletos-gigante.png);
-        background-attachment: fixed;
-        background-position: top;
-        background-repeat: no-repeat;
-        background-size: auto;
-    }
-    .background-legales-aviso {
-        background-image: url(https://cdn-festivales-remindgnp.s3.amazonaws.com/img/remind-gnp-2020-background-boletos-gigante-aviso.png);
-        background-attachment: fixed;
-        background-position: top;
-        background-repeat: no-repeat;
-        background-size: auto;
-    }
-}
-
-.jumbotron-legales-container {
-    padding: 4rem 1rem 10rem 1rem;
-    margin-bottom: 0rem;
-    background-color: #40aae0;
-    border-radius: .3rem;
-}
-
-.jumbotron-legales-container-fluid {
-    padding-right: 0;
-    padding-left: 0;
-    border-radius: 0;
-}
-
-.jumbotron-legales {
-    padding: 2rem 2rem;
-    margin-bottom: 0rem;
-    background-color: #cbf0ff;
-    border-radius: .3rem;
-    border: 5px solid #000;
-}
-
-@media (min-width:992px) {
-    .jumbotron-legales {
-        padding: 3rem 3rem;
-        border: 5px solid #000;
-    }
-    .jumbotron-legales-container {
-        padding: 5rem 0rem 16rem 0rem;
-    }
-}
-
-@media (max-width:992px) {
-    .mb-6 {
-        margin-bottom: 6rem!important;
-    }
-}
-
-@media (max-width:500px) {
-    .mb-6 {
-        margin-bottom: 3rem!important;
-    }
-}
-
-.jumbotron-legales-fluid {
-    padding-right: 0;
-    padding-left: 0;
-    border-radius: 0;
-}
-
-.display-legales {
-    font-size: 1.5rem;
-    font-weight: 300;
-    line-height: 1.2;
-}
-
-.fs-ul {
-    font-size: 1.25rem;
-}
-
-.lead {
-    font-size: 1.25rem;
-    font-weight: 300;
-}
-
-hr {
-    border: 0;
-    border-top: 1px solid #000!important;
-    margin: 20px 0;
-}
-
-@media(max-width:992px) {
-    .display-legales {
-        font-size: 1.30rem;
-        font-weight: 300;
-        line-height: 1.2;
-    }
-    .fs-ul {
-        font-size: 1.15rem;
-    }
-    .lead {
-        font-size: 1.15rem;
-        font-weight: 300;
-    }
-}
-
-@media(max-width:600px) {
-    .display-legales {
-        font-size: 1rem;
-        font-weight: 300;
-        line-height: 1.2;
-    }
-    .fs-ul {
-        font-size: 0.7rem;
-    }
-    .lead {
-        font-size: 0.7rem;
-        font-weight: 300;
-    }
-}
-
-
-/*-----------------
+                                                                        
+                                                                        .background-legales {
+                                                                            background-image: url(https://cdn-festivales-remindgnp.s3.amazonaws.com/img/remind-gnp-2020-background-boletos-full.png);
+                                                                            background-attachment: fixed;
+                                                                            background-position: center center;
+                                                                            background-repeat: no-repeat;
+                                                                            background-size: cover;
+                                                                        }
+                                                                        
+                                                                        .background-legales-aviso {
+                                                                            background-image: url(https://cdn-festivales-remindgnp.s3.amazonaws.com/img/remind-gnp-2020-background-boletos-full.png);
+                                                                            background-attachment: fixed;
+                                                                            background-position: center center;
+                                                                            background-repeat: no-repeat;
+                                                                            background-size: cover;
+                                                                        }
+                                                                        
+                                                                        @media (max-width:992px) {
+                                                                            .background-legales {
+                                                                                background-image: url(https://cdn-festivales-remindgnp.s3.amazonaws.com/img/remind-gnp-2020-background-boletos-full.png);
+                                                                                background-attachment: fixed;
+                                                                                background-position: center center;
+                                                                                background-repeat: no-repeat;
+                                                                                background-size: cover;
+                                                                            }
+                                                                            .background-legales-aviso {
+                                                                                background-image: url(https://cdn-festivales-remindgnp.s3.amazonaws.com/img/remind-gnp-2020-background-boletos-full.png);
+                                                                                background-attachment: fixed;
+                                                                                background-position: center center;
+                                                                                background-repeat: no-repeat;
+                                                                                background-size: cover;
+                                                                            }
+                                                                        }
+                                                                        
+                                                                        @media (max-width:575px) {
+                                                                            .background-legales {
+                                                                                background-image: url(https://cdn-festivales-remindgnp.s3.amazonaws.com/img/remind-gnp-2020-background-boletos-gigante.png);
+                                                                                background-attachment: fixed;
+                                                                                background-position: top;
+                                                                                background-repeat: no-repeat;
+                                                                                background-size: auto;
+                                                                            }
+                                                                            .background-legales-aviso {
+                                                                                background-image: url(https://cdn-festivales-remindgnp.s3.amazonaws.com/img/remind-gnp-2020-background-boletos-gigante-aviso.png);
+                                                                                background-attachment: fixed;
+                                                                                background-position: top;
+                                                                                background-repeat: no-repeat;
+                                                                                background-size: auto;
+                                                                            }
+                                                                        }
+                                                                        
+                                                                        .jumbotron-legales-container {
+                                                                            padding: 4rem 1rem 10rem 1rem;
+                                                                            margin-bottom: 0rem;
+                                                                            background-color: #40aae0;
+                                                                            border-radius: .3rem;
+                                                                        }
+                                                                        
+                                                                        .jumbotron-legales-container-fluid {
+                                                                            padding-right: 0;
+                                                                            padding-left: 0;
+                                                                            border-radius: 0;
+                                                                        }
+                                                                        
+                                                                        .jumbotron-legales {
+                                                                            padding: 2rem 2rem;
+                                                                            margin-bottom: 0rem;
+                                                                            background-color: #cbf0ff;
+                                                                            border-radius: .3rem;
+                                                                            border: 5px solid #000;
+                                                                        }
+                                                                        
+                                                                        @media (min-width:992px) {
+                                                                            .jumbotron-legales {
+                                                                                padding: 3rem 3rem;
+                                                                                border: 5px solid #000;
+                                                                            }
+                                                                            .jumbotron-legales-container {
+                                                                                padding: 5rem 0rem 16rem 0rem;
+                                                                            }
+                                                                        }
+                                                                        
+                                                                        @media (max-width:992px) {
+                                                                            .mb-6 {
+                                                                                margin-bottom: 6rem!important;
+                                                                            }
+                                                                        }
+                                                                        
+                                                                        @media (max-width:500px) {
+                                                                            .mb-6 {
+                                                                                margin-bottom: 3rem!important;
+                                                                            }
+                                                                        }
+                                                                        
+                                                                        .jumbotron-legales-fluid {
+                                                                            padding-right: 0;
+                                                                            padding-left: 0;
+                                                                            border-radius: 0;
+                                                                        }
+                                                                        
+                                                                        .display-legales {
+                                                                            font-size: 1.5rem;
+                                                                            font-weight: 300;
+                                                                            line-height: 1.2;
+                                                                        }
+                                                                        
+                                                                        .fs-ul {
+                                                                            font-size: 1.25rem;
+                                                                        }
+                                                                        
+                                                                        .lead {
+                                                                            font-size: 1.25rem;
+                                                                            font-weight: 300;
+                                                                        }
+                                                                        
+                                                                        hr {
+                                                                            border: 0;
+                                                                            border-top: 1px solid #000!important;
+                                                                            margin: 20px 0;
+                                                                        }
+                                                                        
+                                                                        @media(max-width:992px) {
+                                                                            .display-legales {
+                                                                                font-size: 1.30rem;
+                                                                                font-weight: 300;
+                                                                                line-height: 1.2;
+                                                                            }
+                                                                            .fs-ul {
+                                                                                font-size: 1.15rem;
+                                                                            }
+                                                                            .lead {
+                                                                                font-size: 1.15rem;
+                                                                                font-weight: 300;
+                                                                            }
+                                                                        }
+                                                                        
+                                                                        @media(max-width:600px) {
+                                                                            .display-legales {
+                                                                                font-size: 1rem;
+                                                                                font-weight: 300;
+                                                                                line-height: 1.2;
+                                                                            }
+                                                                            .fs-ul {
+                                                                                font-size: 0.7rem;
+                                                                            }
+                                                                            .lead {
+                                                                                font-size: 0.7rem;
+                                                                                font-weight: 300;
+                                                                            }
+                                                                        }
+                                                                        /*-----------------
 Links boletos
 --------------------------------------*/
-
-.links1-wrap {
-    position: absolute;
-    bottom: 42%;
-    right: 52.1%;
-    width: 46.1%;
-    height: calc(100% / 5.5);
-    border: 0px solid #000;
-    border-radius: 5rem;
-    transform: rotate(0deg);
-}
-
-.links1-wrap a {
-    display: block;
-    height: 100%;
-}
-
-.links2-wrap {
-    position: absolute;
-    bottom: 42%;
-    right: 2.1%;
-    width: 47.1%;
-    height: calc(100% / 5.5);
-    border: 0px solid #000;
-    border-radius: 5rem;
-    transform: rotate(0deg);
-}
-
-.links2-wrap a {
-    display: block;
-    height: 100%;
-}
-
-@media(max-width:992px) {
-    .links1-wrap {
-        position: absolute;
-        bottom: 77%;
-        right: 1.1%;
-        width: 99.1%;
-        height: calc(100% / 10.5);
-        border: 0px solid #000;
-        border-radius: 5rem;
-        transform: rotate(0deg);
-    }
-    .links1-wrap a {
-        display: block;
-        height: 100%;
-    }
-    .links2-wrap {
-        position: absolute;
-        bottom: 23%;
-        right: 1.1%;
-        width: 99.1%;
-        height: calc(100% / 10.5);
-        border: 0px solid #000;
-        border-radius: 5rem;
-        transform: rotate(0deg);
-    }
-    .links2-wrap a {
-        display: block;
-        height: 100%;
-    }
-}
-
-@media(max-width:420px) {
-    .links1-wrap {
-        position: absolute;
-        bottom: 73%;
-        right: 1.1%;
-        width: 99.1%;
-        height: calc(100% / 10.5);
-        border: 0px solid #000;
-        border-radius: 5rem;
-        transform: rotate(0deg);
-    }
-    .links1-wrap a {
-        display: block;
-        height: 100%;
-    }
-    .links2-wrap {
-        position: absolute;
-        bottom: 23%;
-        right: 1.1%;
-        width: 99.1%;
-        height: calc(100% / 10.5);
-        border: 0px solid #000;
-        border-radius: 5rem;
-        transform: rotate(0deg);
-    }
-    .links2-wrap a {
-        display: block;
-        height: 100%;
-    }
-}
-
-
-/*-----------------
+                                                                        
+                                                                        .links1-wrap {
+                                                                            position: absolute;
+                                                                            bottom: 42%;
+                                                                            right: 52.1%;
+                                                                            width: 46.1%;
+                                                                            height: calc(100% / 5.5);
+                                                                            border: 0px solid #000;
+                                                                            border-radius: 5rem;
+                                                                            transform: rotate(0deg);
+                                                                        }
+                                                                        
+                                                                        .links1-wrap a {
+                                                                            display: block;
+                                                                            height: 100%;
+                                                                        }
+                                                                        
+                                                                        .links2-wrap {
+                                                                            position: absolute;
+                                                                            bottom: 42%;
+                                                                            right: 2.1%;
+                                                                            width: 47.1%;
+                                                                            height: calc(100% / 5.5);
+                                                                            border: 0px solid #000;
+                                                                            border-radius: 5rem;
+                                                                            transform: rotate(0deg);
+                                                                        }
+                                                                        
+                                                                        .links2-wrap a {
+                                                                            display: block;
+                                                                            height: 100%;
+                                                                        }
+                                                                        
+                                                                        @media(max-width:992px) {
+                                                                            .links1-wrap {
+                                                                                position: absolute;
+                                                                                bottom: 77%;
+                                                                                right: 1.1%;
+                                                                                width: 99.1%;
+                                                                                height: calc(100% / 10.5);
+                                                                                border: 0px solid #000;
+                                                                                border-radius: 5rem;
+                                                                                transform: rotate(0deg);
+                                                                            }
+                                                                            .links1-wrap a {
+                                                                                display: block;
+                                                                                height: 100%;
+                                                                            }
+                                                                            .links2-wrap {
+                                                                                position: absolute;
+                                                                                bottom: 23%;
+                                                                                right: 1.1%;
+                                                                                width: 99.1%;
+                                                                                height: calc(100% / 10.5);
+                                                                                border: 0px solid #000;
+                                                                                border-radius: 5rem;
+                                                                                transform: rotate(0deg);
+                                                                            }
+                                                                            .links2-wrap a {
+                                                                                display: block;
+                                                                                height: 100%;
+                                                                            }
+                                                                        }
+                                                                        
+                                                                        @media(max-width:420px) {
+                                                                            .links1-wrap {
+                                                                                position: absolute;
+                                                                                bottom: 73%;
+                                                                                right: 1.1%;
+                                                                                width: 99.1%;
+                                                                                height: calc(100% / 10.5);
+                                                                                border: 0px solid #000;
+                                                                                border-radius: 5rem;
+                                                                                transform: rotate(0deg);
+                                                                            }
+                                                                            .links1-wrap a {
+                                                                                display: block;
+                                                                                height: 100%;
+                                                                            }
+                                                                            .links2-wrap {
+                                                                                position: absolute;
+                                                                                bottom: 23%;
+                                                                                right: 1.1%;
+                                                                                width: 99.1%;
+                                                                                height: calc(100% / 10.5);
+                                                                                border: 0px solid #000;
+                                                                                border-radius: 5rem;
+                                                                                transform: rotate(0deg);
+                                                                            }
+                                                                            .links2-wrap a {
+                                                                                display: block;
+                                                                                height: 100%;
+                                                                            }
+                                                                        }
+                                                                        /*-----------------
 Links Home
 --------------------------------------*/
-
-.links1-wrap-cartel {
-    position: absolute;
-    bottom: 44%;
-    right: 25.1%;
-    width: 50.1%;
-    height: calc(100% / 40.5);
-    border: 0px solid #000;
-    border-radius: 5rem;
-    transform: rotate(0deg);
-}
-
-.links1-wrap-cartel a {
-    display: block;
-    height: 100%;
-}
-
-.links2-wrap-cartel {
-    position: absolute;
-    bottom: 37%;
-    right: 64.1%;
-    width: 11.1%;
-    height: calc(100% / 40.5);
-    border: 0px solid #000;
-    border-radius: 5rem;
-    transform: rotate(0deg);
-}
-
-.links2-wrap-cartel a {
-    display: block;
-    height: 100%;
-}
-
-.links3-wrap-cartel {
-    position: absolute;
-    bottom: 37%;
-    right: 25.1%;
-    width: 36.1%;
-    height: calc(100% / 40.5);
-    border: 0px solid #000;
-    border-radius: 5rem;
-    transform: rotate(0deg);
-}
-
-.links3-wrap-cartel a {
-    display: block;
-    height: 100%;
-}
-
-.links4-wrap-cartel {
-    position: absolute;
-    bottom: 30.5%;
-    right: 57.1%;
-    width: 18.1%;
-    height: calc(100% / 40.5);
-    border: 0px solid #000;
-    border-radius: 5rem;
-    transform: rotate(0deg);
-}
-
-.links4-wrap-cartel a {
-    display: block;
-    height: 100%;
-}
-
-@media(max-width:992px) {
-    .links1-wrap-cartel {
-        position: absolute;
-        bottom: 47%;
-        right: 4.1%;
-        width: 91.1%;
-        height: calc(100% / 40.5);
-        border: 0px solid #000;
-        border-radius: 5rem;
-        transform: rotate(0deg);
-    }
-    .links1-wrap-cartel a {
-        display: block;
-        height: 100%;
-    }
-    .links2-wrap-cartel {
-        position: absolute;
-        bottom: 42%;
-        right: 76.1%;
-        width: 19.1%;
-        height: calc(100% / 40.5);
-        border: 0px solid #000;
-        border-radius: 5rem;
-        transform: rotate(0deg);
-    }
-    .links2-wrap-cartel a {
-        display: block;
-        height: 100%;
-    }
-    .links3-wrap-cartel {
-        position: absolute;
-        bottom: 42%;
-        right: 4.1%;
-        width: 66.1%;
-        height: calc(100% / 40.5);
-        border: 0px solid #000;
-        border-radius: 5rem;
-        transform: rotate(0deg);
-    }
-    .links3-wrap-cartel a {
-        display: block;
-        height: 100%;
-    }
-    .links4-wrap-cartel {
-        position: absolute;
-        bottom: 37%;
-        right: 63.1%;
-        width: 32.1%;
-        height: calc(100% / 40.5);
-        border: 0px solid #000;
-        border-radius: 5rem;
-        transform: rotate(0deg);
-    }
-    .links4-wrap-cartel a {
-        display: block;
-        height: 100%;
-    }
-}
-
-
-/*---------------------
-Vista Experiencia obejtos y ticket2ride
+                                                                        
+                                                                        .links1-wrap-cartel {
+                                                                            position: absolute;
+                                                                            bottom: 44%;
+                                                                            right: 25.1%;
+                                                                            width: 50.1%;
+                                                                            height: calc(100% / 40.5);
+                                                                            border: 0px solid #000;
+                                                                            border-radius: 5rem;
+                                                                            transform: rotate(0deg);
+                                                                        }
+                                                                        
+                                                                        .links1-wrap-cartel a {
+                                                                            display: block;
+                                                                            height: 100%;
+                                                                        }
+                                                                        
+                                                                        .links2-wrap-cartel {
+                                                                            position: absolute;
+                                                                            bottom: 37%;
+                                                                            right: 64.1%;
+                                                                            width: 11.1%;
+                                                                            height: calc(100% / 40.5);
+                                                                            border: 0px solid #000;
+                                                                            border-radius: 5rem;
+                                                                            transform: rotate(0deg);
+                                                                        }
+                                                                        
+                                                                        .links2-wrap-cartel a {
+                                                                            display: block;
+                                                                            height: 100%;
+                                                                        }
+                                                                        
+                                                                        .links3-wrap-cartel {
+                                                                            position: absolute;
+                                                                            bottom: 37%;
+                                                                            right: 25.1%;
+                                                                            width: 36.1%;
+                                                                            height: calc(100% / 40.5);
+                                                                            border: 0px solid #000;
+                                                                            border-radius: 5rem;
+                                                                            transform: rotate(0deg);
+                                                                        }
+                                                                        
+                                                                        .links3-wrap-cartel a {
+                                                                            display: block;
+                                                                            height: 100%;
+                                                                        }
+                                                                        
+                                                                        .links4-wrap-cartel {
+                                                                            position: absolute;
+                                                                            bottom: 30.5%;
+                                                                            right: 57.1%;
+                                                                            width: 18.1%;
+                                                                            height: calc(100% / 40.5);
+                                                                            border: 0px solid #000;
+                                                                            border-radius: 5rem;
+                                                                            transform: rotate(0deg);
+                                                                        }
+                                                                        
+                                                                        .links4-wrap-cartel a {
+                                                                            display: block;
+                                                                            height: 100%;
+                                                                        }
+                                                                        
+                                                                        @media(max-width:992px) {
+                                                                            .links1-wrap-cartel {
+                                                                                position: absolute;
+                                                                                bottom: 47%;
+                                                                                right: 4.1%;
+                                                                                width: 91.1%;
+                                                                                height: calc(100% / 40.5);
+                                                                                border: 0px solid #000;
+                                                                                border-radius: 5rem;
+                                                                                transform: rotate(0deg);
+                                                                            }
+                                                                            .links1-wrap-cartel a {
+                                                                                display: block;
+                                                                                height: 100%;
+                                                                            }
+                                                                            .links2-wrap-cartel {
+                                                                                position: absolute;
+                                                                                bottom: 42%;
+                                                                                right: 76.1%;
+                                                                                width: 19.1%;
+                                                                                height: calc(100% / 40.5);
+                                                                                border: 0px solid #000;
+                                                                                border-radius: 5rem;
+                                                                                transform: rotate(0deg);
+                                                                            }
+                                                                            .links2-wrap-cartel a {
+                                                                                display: block;
+                                                                                height: 100%;
+                                                                            }
+                                                                            .links3-wrap-cartel {
+                                                                                position: absolute;
+                                                                                bottom: 42%;
+                                                                                right: 4.1%;
+                                                                                width: 66.1%;
+                                                                                height: calc(100% / 40.5);
+                                                                                border: 0px solid #000;
+                                                                                border-radius: 5rem;
+                                                                                transform: rotate(0deg);
+                                                                            }
+                                                                            .links3-wrap-cartel a {
+                                                                                display: block;
+                                                                                height: 100%;
+                                                                            }
+                                                                            .links4-wrap-cartel {
+                                                                                position: absolute;
+                                                                                bottom: 37%;
+                                                                                right: 63.1%;
+                                                                                width: 32.1%;
+                                                                                height: calc(100% / 40.5);
+                                                                                border: 0px solid #000;
+                                                                                border-radius: 5rem;
+                                                                                transform: rotate(0deg);
+                                                                            }
+                                                                            .links4-wrap-cartel a {
+                                                                                display: block;
+                                                                                height: 100%;
+                                                                            }
+                                                                        }
+                                                                        /*---------------------
+Vista Experiencia obejtos y ticket2ride horarios
 --------------------*/
-
-.background-experiencia {
-    background: #dac8c1;
-}
-
-.background-experiencia-ticket {
-    background: #fedc11;
-}
-
-.my-experiencia {
-    margin-bottom: 0rem !important;
-}
-
-.jumbotron-experiencia {
-    padding: 2rem 0rem 10rem 0rem;
-    margin-bottom: 0rem;
-    border: 0px solid #000;
-    position: relative;
-}
-
-.jumbotron-experiencia-ticket {
-    padding: 2rem 0rem 10rem 0rem;
-    margin-bottom: 0rem;
-    border: 0px solid #000;
-    position: relative;
-}
-
-.mb-experiencia {
-    margin-bottom: 0rem!important;
-}
-
-.jumbotron-experiencia-container {
-    padding: 4rem 1rem 3rem 1rem;
-    margin-bottom: 0rem;
-    background-color: #dac8c1;
-    border-radius: .3rem;
-}
-
-.jumbotron-experiencia-container-ticket {
-    padding: 4rem 1rem 3rem 1rem;
-    margin-bottom: 0rem;
-    background-color: #fedc11;
-    border-radius: .3rem;
-}
-
-.style-title-ticket {
-    font-family: Raleway-Bold;
-    color: #000;
-    font-size: 1.2rem;
-    text-transform: uppercase;
-}
-
-.style-text-ticket {
-    font-family: Raleway-Medium;
-    color: #000;
-    font-size: 1rem;
-}
-.link-t2rcompra{
-    color: #f52f46;
-    font-family: Raleway-Medium;
-}
-.link-t2rcompra:hover{
-    color: #f52f46!important;
-    font-family: Raleway-Medium;
-}
-@media (max-width:992px) {
-    .jumbotron-experiencia-container {
-        padding: 5rem 0rem 10rem 0rem;
-    }
-    .jumbotron-experiencia-container-ticket {
-        padding: 5rem 0rem 10rem 0rem;
-    }
-@media (min-width:992px) {
-  
-    .style-title-ticket {
-        font-family: Raleway-Bold;
-        color: #000;
-        font-size: 2.1rem;
-        text-transform: uppercase;
-    }
-    
-    .style-text-ticket {
-        font-family: Raleway-Medium;
-        color: #000;
-        font-size: 2rem;
-    }
-}
-
-@media (min-width:992px) {
-    .jumbotron-experiencia {
-        padding: 1rem 1rem;
-        border: 0px solid #000;
-    }
-    .jumbotron-experiencia-ticket {
-        padding: 1rem 1rem;
-        border: 0px solid #000;
-    }
-}
-
-@media (max-width:992px) {
-    .my-experiencia {
-        margin-bottom: 1rem !important;
-    }
-}
-
-@media (max-width:575px) {
-    .my-experiencia {
-        margin-bottom: 1rem !important;
-    }
-}
+                                                                        
+                                                                        .background-experiencia {
+                                                                            background: #dac8c1;
+                                                                        }
+                                                                        
+                                                                        .background-experiencia-ticket {
+                                                                            background: #fedc11;
+                                                                        }
+                                                                        
+                                                                        .background-horarios {
+                                                                            background: #8ccae0;
+                                                                        }
+                                                                        
+                                                                        .my-experiencia {
+                                                                            margin-bottom: 0rem !important;
+                                                                        }
+                                                                        
+                                                                        .jumbotron-horarios {
+                                                                            padding: 0rem 0rem 3rem 0rem;
+                                                                            margin-bottom: 0rem;
+                                                                            border: 0px solid #000;
+                                                                            position: relative;
+                                                                        }
+                                                                        
+                                                                        .jumbotron-experiencia {
+                                                                            padding: 2rem 0rem 10rem 0rem;
+                                                                            margin-bottom: 0rem;
+                                                                            border: 0px solid #000;
+                                                                            position: relative;
+                                                                        }
+                                                                        
+                                                                        .jumbotron-experiencia-ticket {
+                                                                            padding: 2rem 0rem 10rem 0rem;
+                                                                            margin-bottom: 0rem;
+                                                                            border: 0px solid #000;
+                                                                            position: relative;
+                                                                        }
+                                                                        
+                                                                        .mb-experiencia {
+                                                                            margin-bottom: 0rem!important;
+                                                                        }
+                                                                        
+                                                                        .jumbotron-horarios-container {
+                                                                            padding: 4rem 1rem 3rem 1rem;
+                                                                            margin-bottom: 0rem;
+                                                                            background-color: #8ccae0;
+                                                                            border-radius: .3rem;
+                                                                        }
+                                                                        
+                                                                        .jumbotron-experiencia-container {
+                                                                            padding: 4rem 1rem 3rem 1rem;
+                                                                            margin-bottom: 0rem;
+                                                                            background-color: #dac8c1;
+                                                                            border-radius: .3rem;
+                                                                        }
+                                                                        
+                                                                        .jumbotron-experiencia-container-ticket {
+                                                                            padding: 4rem 1rem 3rem 1rem;
+                                                                            margin-bottom: 0rem;
+                                                                            background-color: #fedc11;
+                                                                            border-radius: .3rem;
+                                                                        }
+                                                                        
+                                                                        .style-title-ticket {
+                                                                            font-family: Raleway-Bold;
+                                                                            color: #000;
+                                                                            font-size: 1.2rem;
+                                                                            text-transform: uppercase;
+                                                                        }
+                                                                        
+                                                                        .style-text-ticket {
+                                                                            font-family: Raleway-Medium;
+                                                                            color: #000;
+                                                                            font-size: 1rem;
+                                                                        }
+                                                                        
+                                                                        .link-t2rcompra {
+                                                                            color: #f52f46;
+                                                                            font-family: Raleway-Medium;
+                                                                        }
+                                                                        
+                                                                        .link-t2rcompra:hover {
+                                                                            color: #f52f46!important;
+                                                                            font-family: Raleway-Medium;
+                                                                        }
+                                                                        
+                                                                        @media (max-width:992px) {
+                                                                            .jumbotron-experiencia-container {
+                                                                                padding: 5rem 0rem 10rem 0rem;
+                                                                            }
+                                                                            .jumbotron-experiencia-container-ticket {
+                                                                                padding: 5rem 0rem 10rem 0rem;
+                                                                            }
+                                                                            .jumbotron-horarios {
+                                                                                padding: 0rem 0rem 7rem 0rem;
+                                                                                margin-bottom: 0rem;
+                                                                                border: 0px solid #000;
+                                                                                position: relative;
+                                                                            }
+                                                                        }
+                                                                        
+                                                                        @media (max-width:500px) {
+                                                                            .jumbotron-horarios {
+                                                                                padding: 0rem 0rem 3rem 0rem;
+                                                                            }
+                                                                        }
+                                                                        
+                                                                        @media (min-width:992px) {
+                                                                            .style-title-ticket {
+                                                                                font-family: Raleway-Bold;
+                                                                                color: #000;
+                                                                                font-size: 2.1rem;
+                                                                                text-transform: uppercase;
+                                                                            }
+                                                                            .style-text-ticket {
+                                                                                font-family: Raleway-Medium;
+                                                                                color: #000;
+                                                                                font-size: 2rem;
+                                                                            }
+                                                                        }
+                                                                        
+                                                                        @media (min-width:992px) {
+                                                                            .jumbotron-experiencia {
+                                                                                padding: 1rem 1rem;
+                                                                                border: 0px solid #000;
+                                                                            }
+                                                                            .jumbotron-experiencia-ticket {
+                                                                                padding: 1rem 1rem;
+                                                                                border: 0px solid #000;
+                                                                            }
+                                                                        }
+                                                                        
+                                                                        @media (max-width:992px) {
+                                                                            .my-experiencia {
+                                                                                margin-bottom: 1rem !important;
+                                                                            }
+                                                                        }
+                                                                        
+                                                                        @media (max-width:575px) {
+                                                                            .my-experiencia {
+                                                                                margin-bottom: 1rem !important;
+                                                                            }
+                                                                        }
