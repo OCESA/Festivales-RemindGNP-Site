@@ -1374,7 +1374,7 @@ Links Home
                                                                                 right: 74.1%;
                                                                                 width: 22.1%;
                                                                                 height: calc(100% / 40.5);
-                                                                                border: 1px solid #000;
+                                                                                border: 0px solid #000;
                                                                                 border-radius: 5rem;
                                                                                 transform: rotate(0deg);
                                                                             }
