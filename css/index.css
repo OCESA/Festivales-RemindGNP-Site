@@ -1199,6 +1199,118 @@ Links Home
                                                                             height: 100%;
                                                                         }
                                                                         
+                                                                        .links5-wrap-cartel {
+                                                                            position: absolute;
+                                                                            bottom: 25.5%;
+                                                                            right: 64.1%;
+                                                                            width: 11.1%;
+                                                                            height: calc(100% / 40.5);
+                                                                            border: 0px solid #000;
+                                                                            border-radius: 5rem;
+                                                                            transform: rotate(0deg);
+                                                                        }
+                                                                        
+                                                                        .links5-wrap-cartel a {
+                                                                            display: block;
+                                                                            height: 100%;
+                                                                        }
+                                                                        
+                                                                        .links6-wrap-cartel {
+                                                                            position: absolute;
+                                                                            bottom: 25.5%;
+                                                                            right: 25.1%;
+                                                                            width: 18.1%;
+                                                                            height: calc(100% / 40.5);
+                                                                            border: 0px solid #000;
+                                                                            border-radius: 5rem;
+                                                                            transform: rotate(0deg);
+                                                                        }
+                                                                        
+                                                                        .links6-wrap-cartel a {
+                                                                            display: block;
+                                                                            height: 100%;
+                                                                        }
+                                                                        
+                                                                        .links7-wrap-cartel {
+                                                                            position: absolute;
+                                                                            bottom: 21.5%;
+                                                                            right: 58.1%;
+                                                                            width: 18.1%;
+                                                                            height: calc(100% / 40.5);
+                                                                            border: 0px solid #000;
+                                                                            border-radius: 5rem;
+                                                                            transform: rotate(0deg);
+                                                                        }
+                                                                        
+                                                                        .links7-wrap-cartel a {
+                                                                            display: block;
+                                                                            height: 100%;
+                                                                        }
+                                                                        
+                                                                        .links8-wrap-cartel {
+                                                                            position: absolute;
+                                                                            bottom: 21.5%;
+                                                                            right: 42.1%;
+                                                                            width: 15.1%;
+                                                                            height: calc(100% / 40.5);
+                                                                            border: 0px solid #000;
+                                                                            border-radius: 5rem;
+                                                                            transform: rotate(0deg);
+                                                                        }
+                                                                        
+                                                                        .links8-wrap-cartel a {
+                                                                            display: block;
+                                                                            height: 100%;
+                                                                        }
+                                                                        
+                                                                        .links9-wrap-cartel {
+                                                                            position: absolute;
+                                                                            bottom: 17.5%;
+                                                                            right: 65.1%;
+                                                                            width: 11.1%;
+                                                                            height: calc(100% / 40.5);
+                                                                            border: 0px solid #000;
+                                                                            border-radius: 5rem;
+                                                                            transform: rotate(0deg);
+                                                                        }
+                                                                        
+                                                                        .links9-wrap-cartel a {
+                                                                            display: block;
+                                                                            height: 100%;
+                                                                        }
+                                                                        
+                                                                        .links10-wrap-cartel {
+                                                                            position: absolute;
+                                                                            bottom: 17.5%;
+                                                                            right: 38.1%;
+                                                                            width: 26.1%;
+                                                                            height: calc(100% / 40.5);
+                                                                            border: 0px solid #000;
+                                                                            border-radius: 5rem;
+                                                                            transform: rotate(0deg);
+                                                                        }
+                                                                        
+                                                                        .links10-wrap-cartel a {
+                                                                            display: block;
+                                                                            height: 100%;
+                                                                        }
+                                                                        
+                                                                        .links11-wrap-cartel {
+                                                                            position: absolute;
+                                                                            bottom: 17.5%;
+                                                                            right: 25.1%;
+                                                                            width: 12.1%;
+                                                                            height: calc(100% / 40.5);
+                                                                            border: 0px solid #000;
+                                                                            border-radius: 5rem;
+                                                                            transform: rotate(0deg);
+                                                                        }
+                                                                        
+                                                                        .links11-wrap-cartel a {
+                                                                            display: block;
+                                                                            height: 100%;
+                                                                        }
+                                                                        
                                                                         @media(max-width:992px) {
                                                                             .links1-wrap-cartel {
                                                                                 position: absolute;
@@ -1255,6 +1367,76 @@ Links Home
                                                                             .links4-wrap-cartel a {
                                                                                 display: block;
                                                                                 height: 100%;
+                                                                            }
+                                                                            .links5-wrap-cartel {
+                                                                                position: absolute;
+                                                                                bottom: 33.5%;
+                                                                                right: 74.1%;
+                                                                                width: 22.1%;
+                                                                                height: calc(100% / 40.5);
+                                                                                border: 1px solid #000;
+                                                                                border-radius: 5rem;
+                                                                                transform: rotate(0deg);
+                                                                            }
+                                                                            .links6-wrap-cartel {
+                                                                                position: absolute;
+                                                                                bottom: 33.5%;
+                                                                                right: 5.1%;
+                                                                                width: 32.1%;
+                                                                                height: calc(100% / 40.5);
+                                                                                border: 0px solid #000;
+                                                                                border-radius: 5rem;
+                                                                                transform: rotate(0deg);
+                                                                            }
+                                                                            .links7-wrap-cartel {
+                                                                                position: absolute;
+                                                                                bottom: 31%;
+                                                                                right: 65.1%;
+                                                                                width: 31.1%;
+                                                                                height: calc(100% / 55.5);
+                                                                                border: 0px solid #000;
+                                                                                border-radius: 5rem;
+                                                                                transform: rotate(0deg);
+                                                                            }
+                                                                            .links8-wrap-cartel {
+                                                                                position: absolute;
+                                                                                bottom: 31%;
+                                                                                right: 35.1%;
+                                                                                width: 28.1%;
+                                                                                height: calc(100% / 55.5);
+                                                                                border: 0px solid #000;
+                                                                                border-radius: 5rem;
+                                                                                transform: rotate(0deg);
+                                                                            }
+                                                                            .links9-wrap-cartel {
+                                                                                position: absolute;
+                                                                                bottom: 28%;
+                                                                                right: 77.1%;
+                                                                                width: 18.1%;
+                                                                                height: calc(100% / 55.5);
+                                                                                border: 0px solid #000;
+                                                                                border-radius: 5rem;
+                                                                                transform: rotate(0deg);
+                                                                            }
+                                                                            .links10-wrap-cartel {
+                                                                                position: absolute;
+                                                                                bottom: 28%;
+                                                                                right: 29.1%;
+                                                                                width: 47.1%;
+                                                                                height: calc(100% / 55.5);
+                                                                                border: 0px solid #000;
+                                                                                border-radius: 5rem;
+                                                                                transform: rotate(0deg);
+                                                                            }
+                                                                            .links11-wrap-cartel {
+                                                                                position: absolute;
+                                                                                bottom: 28%;
+                                                                                right: 29.1%;
+                                                                                width: 47.1%;
+                                                                                height: calc(100% / 55.5);
+                                                                                border: 0px solid #000;
+                                                                                border-radius: 5rem;
+                                                                                transform: rotate(0deg);
                                                                             }
                                                                         }
                                                                         /*---------------------
