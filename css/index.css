@@ -9,76 +9,76 @@
                                                                         }
                                                                         
                                                                         body {
-                                                                            background-color: #3c8fb6!important;
+                                                                            background-color: #3c8fb6 !important;
                                                                         }
                                                                         
                                                                         .db {
-                                                                            display: block!important;
+                                                                            display: block !important;
                                                                         }
                                                                         
                                                                         .dbf {
-                                                                            display: flex!important;
+                                                                            display: flex !important;
                                                                         }
                                                                         
                                                                         .dnm {
-                                                                            display: none!important;
+                                                                            display: none !important;
                                                                         }
                                                                         
                                                                         .dn {
-                                                                            display: none!important;
+                                                                            display: none !important;
                                                                         }
                                                                         
                                                                         .dn2 {
-                                                                            display: none!important;
+                                                                            display: none !important;
                                                                         }
                                                                         
                                                                         .dnf {
-                                                                            display: none!important;
+                                                                            display: none !important;
                                                                         }
                                                                         
                                                                         .dbn {
-                                                                            display: none!important;
+                                                                            display: none !important;
                                                                         }
                                                                         
                                                                         @media(max-width:992px) {
                                                                             .db {
-                                                                                display: none!important;
+                                                                                display: none !important;
                                                                             }
                                                                             .dbf {
-                                                                                display: none!important;
+                                                                                display: none !important;
                                                                             }
                                                                             .dnm {
-                                                                                display: block!important;
+                                                                                display: block !important;
                                                                             }
                                                                             .dn {
-                                                                                display: none!important;
+                                                                                display: none !important;
                                                                             }
                                                                             .dn2 {
-                                                                                display: block!important;
+                                                                                display: block !important;
                                                                             }
                                                                             .dnf {
-                                                                                display: flex!important;
+                                                                                display: flex !important;
                                                                             }
                                                                             .dbn {
-                                                                                display: block!important;
+                                                                                display: block !important;
                                                                             }
                                                                         }
                                                                         
                                                                         @media(max-width:575px) {
                                                                             .db {
-                                                                                display: none!important;
+                                                                                display: none !important;
                                                                             }
                                                                             .dbf {
-                                                                                display: none!important;
+                                                                                display: none !important;
                                                                             }
                                                                             .dnm {
-                                                                                display: none!important;
+                                                                                display: none !important;
                                                                             }
                                                                             .dn {
-                                                                                display: block!important;
+                                                                                display: block !important;
                                                                             }
                                                                             .dnf {
-                                                                                display: flex!important;
+                                                                                display: flex !important;
                                                                             }
                                                                         }
                                                                         /*---------------------
@@ -86,24 +86,24 @@ W-100
 --------------------*/
                                                                         
                                                                         .w-23-100 {
-                                                                            width: 180px!important;
+                                                                            width: 180px !important;
                                                                         }
                                                                         
                                                                         @media(max-width:1075px) {
                                                                             .w-23-100 {
-                                                                                width: 95px!important;
+                                                                                width: 95px !important;
                                                                             }
                                                                         }
                                                                         
                                                                         @media(max-width:992px) {
                                                                             .w-23-100 {
-                                                                                width: 200px!important;
+                                                                                width: 200px !important;
                                                                             }
                                                                         }
                                                                         
                                                                         @media(max-width:500px) {
                                                                             .w-23-100 {
-                                                                                width: 180px!important;
+                                                                                width: 180px !important;
                                                                             }
                                                                         }
                                                                         /*---------------------
@@ -257,6 +257,59 @@ Fuentes variadas
                                                                             }
                                                                         }
                                                                         /*---------------------
+Modal
+--------------------*/
+                                                                        
+                                                                        .modal-content {
+                                                                            position: relative;
+                                                                            display: -ms-flexbox;
+                                                                            display: flex;
+                                                                            -ms-flex-direction: column;
+                                                                            flex-direction: column;
+                                                                            width: 100%;
+                                                                            pointer-events: auto;
+                                                                            background-color: #66c9e1;
+                                                                            background-clip: padding-box;
+                                                                            border: 0px solid rgba(0, 0, 0, .2);
+                                                                            border-radius: .3rem;
+                                                                            outline: 0;
+                                                                        }
+                                                                        
+                                                                        .modal-body {
+                                                                            position: relative;
+                                                                            -ms-flex: 1 1 auto;
+                                                                            flex: 1 1 auto;
+                                                                            padding: 0rem;
+                                                                        }
+                                                                        
+                                                                        .modal-header {
+                                                                            display: -ms-flexbox;
+                                                                            display: flex;
+                                                                            -ms-flex-align: start;
+                                                                            align-items: flex-start;
+                                                                            -ms-flex-pack: justify;
+                                                                            justify-content: space-between;
+                                                                            padding: 1rem;
+                                                                            border-bottom: 0px solid #e9ecef;
+                                                                            border-top-left-radius: .3rem;
+                                                                            border-top-right-radius: .3rem;
+                                                                        }
+                                                                        
+                                                                        .close-modal {
+                                                                            position: absolute;
+                                                                            right: 0%;
+                                                                        }
+                                                                        
+                                                                        .close {
+                                                                            float: right;
+                                                                            font-size: 1.5rem;
+                                                                            font-weight: 700;
+                                                                            line-height: 1;
+                                                                            color: #66c9e1;
+                                                                            text-shadow: 0 1px 0 #fff;
+                                                                            opacity: 1;
+                                                                        }
+                                                                        /*---------------------
 Header
 --------------------*/
                                                                         
@@ -308,7 +361,7 @@ Header
                                                                         
                                                                         .navbar-light .navbar-toggler {
                                                                             color: rgba(0, 0, 0, .5);
-                                                                            border-color: transparent!important;
+                                                                            border-color: transparent !important;
                                                                         }
                                                                         
                                                                         .background-color-mh {
@@ -386,7 +439,7 @@ Header
                                                                                 width: 100%;
                                                                             }
                                                                             .background-color-mh {
-                                                                                background-color: #2bbbe1!important;
+                                                                                background-color: #2bbbe1 !important;
                                                                                 border-top: 10px solid #000;
                                                                             }
                                                                             .w-rs-10 {
@@ -413,18 +466,18 @@ Footer
                                                                             color: #000;
                                                                             font-size: 8px;
                                                                             font-weight: 400;
-                                                                            margin-top: 0!important;
-                                                                            margin-bottom: 0rem!important;
+                                                                            margin-top: 0 !important;
+                                                                            margin-bottom: 0rem !important;
                                                                             font-family: Raleway-Bold;
                                                                         }
                                                                         
                                                                         .text-avisos a {
-                                                                            color: #000!important;
+                                                                            color: #000 !important;
                                                                         }
                                                                         
                                                                         .text-avisos a:hover {
-                                                                            color: #009344!important;
-                                                                            text-decoration: none!important;
+                                                                            color: #009344 !important;
+                                                                            text-decoration: none !important;
                                                                         }
                                                                         
                                                                         .btn-sm,
@@ -444,8 +497,8 @@ Footer
                                                                             }
                                                                             .text-avisos {
                                                                                 font-size: 5px;
-                                                                                margin-top: 0!important;
-                                                                                margin-bottom: 0rem!important;
+                                                                                margin-top: 0 !important;
+                                                                                margin-bottom: 0rem !important;
                                                                             }
                                                                             .btn-sm,
                                                                             .btn-group-sm>.btn {
@@ -495,7 +548,7 @@ Vista Boletos
                                                                         }
                                                                         
                                                                         .mb-boletos {
-                                                                            margin-bottom: 7rem!important;
+                                                                            margin-bottom: 7rem !important;
                                                                         }
                                                                         
                                                                         .jumbotron-bol-container {
@@ -545,7 +598,7 @@ Vista Boletos
                                                                         }
                                                                         
                                                                         .h-100vh {
-                                                                            height: 100vh!important;
+                                                                            height: 100vh !important;
                                                                         }
                                                                         
                                                                         .text-color {
@@ -641,12 +694,12 @@ Vista Cashless
                                                                         }
                                                                         
                                                                         .font-style-faqs {
-                                                                            font-family: Raleway-Bold!important;
+                                                                            font-family: Raleway-Bold !important;
                                                                         }
                                                                         
                                                                         .font-style-respuesta {
-                                                                            font-family: Raleway-Medium!important;
-                                                                            font-size: 1rem!important;
+                                                                            font-family: Raleway-Medium !important;
+                                                                            font-size: 1rem !important;
                                                                         }
                                                                         
                                                                         .card-style {
@@ -657,7 +710,7 @@ Vista Cashless
                                                                             flex-direction: column;
                                                                             min-width: 0;
                                                                             word-wrap: break-word;
-                                                                            background-color: #fff!important;
+                                                                            background-color: #fff !important;
                                                                             background-clip: border-box;
                                                                             border: 0px solid rgba(0, 0, 0, .125);
                                                                             border-radius: 0;
@@ -668,7 +721,7 @@ Vista Cashless
                                                                             color: #fff;
                                                                             background-color: transparent;
                                                                             text-transform: uppercase;
-                                                                            font-size: 1.3rem!important;
+                                                                            font-size: 1.3rem !important;
                                                                         }
                                                                         
                                                                         .link-style:hover {
@@ -677,19 +730,19 @@ Vista Cashless
                                                                             background-color: transparent;
                                                                             border-color: transparent;
                                                                             text-transform: uppercase;
-                                                                            font-size: 1.3rem!important;
+                                                                            font-size: 1.3rem !important;
                                                                         }
                                                                         
                                                                         @media (max-width:992px) {
                                                                             .mb-10 {
-                                                                                margin-bottom: 7rem!important;
+                                                                                margin-bottom: 7rem !important;
                                                                             }
                                                                             .link-style {
                                                                                 font-weight: 400;
                                                                                 color: #fff;
                                                                                 background-color: transparent;
                                                                                 text-transform: uppercase;
-                                                                                font-size: 1.1rem!important;
+                                                                                font-size: 1.1rem !important;
                                                                             }
                                                                             .link-style:hover {
                                                                                 color: #2fbadc;
@@ -697,24 +750,24 @@ Vista Cashless
                                                                                 background-color: transparent;
                                                                                 border-color: transparent;
                                                                                 text-transform: uppercase;
-                                                                                font-size: 1.1rem!important;
+                                                                                font-size: 1.1rem !important;
                                                                             }
                                                                             .font-style-respuesta {
-                                                                                font-family: Raleway-Medium!important;
-                                                                                font-size: 1rem!important;
+                                                                                font-family: Raleway-Medium !important;
+                                                                                font-size: 1rem !important;
                                                                             }
                                                                         }
                                                                         
                                                                         @media (max-width: 500px) {
                                                                             .mb-10 {
-                                                                                margin-bottom: 3rem!important;
+                                                                                margin-bottom: 3rem !important;
                                                                             }
                                                                             .link-style {
                                                                                 font-weight: 400;
                                                                                 color: #fff;
                                                                                 background-color: transparent;
                                                                                 text-transform: uppercase;
-                                                                                font-size: 1rem!important;
+                                                                                font-size: 1rem !important;
                                                                             }
                                                                             .link-style:hover {
                                                                                 color: #2fbadc;
@@ -722,11 +775,11 @@ Vista Cashless
                                                                                 background-color: transparent;
                                                                                 border-color: transparent;
                                                                                 text-transform: uppercase;
-                                                                                font-size: 1rem!important;
+                                                                                font-size: 1rem !important;
                                                                             }
                                                                             .font-style-respuesta {
-                                                                                font-family: Raleway-Medium!important;
-                                                                                font-size: 1rem!important;
+                                                                                font-family: Raleway-Medium !important;
+                                                                                font-size: 1rem !important;
                                                                             }
                                                                             .background-cashless {
                                                                                 background-image: url(https://cdn-festivales-remindgnp.s3.amazonaws.com/img/remind-gnp-2020-background-cashless-resp.png);
@@ -743,7 +796,7 @@ Vista Cashless
                                                                                 color: #fff;
                                                                                 background-color: transparent;
                                                                                 text-transform: uppercase;
-                                                                                font-size: 0.75rem!important;
+                                                                                font-size: 0.75rem !important;
                                                                             }
                                                                             .link-style:hover {
                                                                                 color: #2fbadc;
@@ -751,11 +804,11 @@ Vista Cashless
                                                                                 background-color: transparent;
                                                                                 border-color: transparent;
                                                                                 text-transform: uppercase;
-                                                                                font-size: 0.75rem!important;
+                                                                                font-size: 0.75rem !important;
                                                                             }
                                                                             .font-style-respuesta {
-                                                                                font-family: Raleway-Medium!important;
-                                                                                font-size: 0.75rem!important;
+                                                                                font-family: Raleway-Medium !important;
+                                                                                font-size: 0.75rem !important;
                                                                             }
                                                                         }
                                                                         
@@ -765,7 +818,7 @@ Vista Cashless
                                                                                 color: #fff;
                                                                                 background-color: transparent;
                                                                                 text-transform: uppercase;
-                                                                                font-size: 0.5rem!important;
+                                                                                font-size: 0.5rem !important;
                                                                             }
                                                                             .link-style:hover {
                                                                                 color: #2fbadc;
@@ -773,11 +826,11 @@ Vista Cashless
                                                                                 background-color: transparent;
                                                                                 border-color: transparent;
                                                                                 text-transform: uppercase;
-                                                                                font-size: 0.5rem!important;
+                                                                                font-size: 0.5rem !important;
                                                                             }
                                                                             .font-style-respuesta {
-                                                                                font-family: Raleway-Medium!important;
-                                                                                font-size: 0.5rem!important;
+                                                                                font-family: Raleway-Medium !important;
+                                                                                font-size: 0.5rem !important;
                                                                             }
                                                                         }
                                                                         /*---------------------
@@ -785,7 +838,7 @@ Vista Musica
 --------------------*/
                                                                         
                                                                         .background-musica {
-                                                                            background: #e92d43!important;
+                                                                            background: #e92d43 !important;
                                                                         }
                                                                         
                                                                         .jumbotron-musica {
@@ -798,7 +851,7 @@ Vista Artista
 --------------------*/
                                                                         
                                                                         .background-artista {
-                                                                            background: #ffbc00!important;
+                                                                            background: #ffbc00 !important;
                                                                         }
                                                                         
                                                                         .border-artista-titulo {
@@ -824,7 +877,7 @@ Vista Gastronomia
 --------------------*/
                                                                         
                                                                         .background-gastronomia {
-                                                                            background: #009344!important;
+                                                                            background: #009344 !important;
                                                                         }
                                                                         
                                                                         .jumbotron-gastronomia {
@@ -968,13 +1021,13 @@ Vista Legales Aviso y Términos
                                                                         
                                                                         @media (max-width:992px) {
                                                                             .mb-6 {
-                                                                                margin-bottom: 6rem!important;
+                                                                                margin-bottom: 6rem !important;
                                                                             }
                                                                         }
                                                                         
                                                                         @media (max-width:500px) {
                                                                             .mb-6 {
-                                                                                margin-bottom: 3rem!important;
+                                                                                margin-bottom: 3rem !important;
                                                                             }
                                                                         }
                                                                         
@@ -1001,7 +1054,7 @@ Vista Legales Aviso y Términos
                                                                         
                                                                         hr {
                                                                             border: 0;
-                                                                            border-top: 1px solid #000!important;
+                                                                            border-top: 1px solid #000 !important;
                                                                             margin: 20px 0;
                                                                         }
                                                                         
@@ -1481,7 +1534,7 @@ Vista Experiencia obejtos y ticket2ride horarios
                                                                         }
                                                                         
                                                                         .mb-experiencia {
-                                                                            margin-bottom: 0rem!important;
+                                                                            margin-bottom: 0rem !important;
                                                                         }
                                                                         
                                                                         .jumbotron-horarios-container {
@@ -1524,7 +1577,7 @@ Vista Experiencia obejtos y ticket2ride horarios
                                                                         }
                                                                         
                                                                         .link-t2rcompra:hover {
-                                                                            color: #f52f46!important;
+                                                                            color: #f52f46 !important;
                                                                             font-family: Raleway-Medium;
                                                                         }
                                                                         
